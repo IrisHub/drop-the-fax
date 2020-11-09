@@ -6,6 +6,9 @@ import ConfirmButton from './components/cta-button.js';
 import MyNavbar from './components/nav.js';
 import Divider from './components/divider.js';
 import Footer from './components/footer';
+import Line from './components/line';
+import Paragraph from './components/line';
+
 
 import Image from "./image";
 import SplitImage from "./split-img";
@@ -37,15 +40,19 @@ function App() {
     <MyNavbar></MyNavbar>
 
 
-    <Title text = 'YOUR STARTER PACK FOR ONLINE SCHOOL.'></Title>
-    <Subtitle text = "Your new life online got real stressful, and it's week 4.  Iris helps you stay close to your friends and on top of your work.   "></Subtitle>
-    {/* <a href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "Join the Waitlist"></ConfirmButton> </a>  */}
+    <Title text = 'DROP FAX ON ADMIN, DOWNLOAD TEACH'></Title>
+    <Line text = "TEACH IS A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Line>
+    <Paragraph text = "POLICIES ON TESTING AND COLLABORATION HAVEN’T CAUGHT UP TO OUR NEW WORLD ONLINE.  IT’S A FACT THAT STUDENTS LEARN BETTER TOGETHER. SO WHY NOT FAX A MESSAGE ALONG TO UNIVERSITY ADMIN >:)?"></Paragraph>
+
+    <a href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> </a> 
+    <a href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "2. JOIN THE APP"></ConfirmButton> </a> 
+
     {/* <Divider></Divider> */}
-    <SignUp></SignUp>
+    {/* <SignUp></SignUp> */}
 
     
      <Image
-       image = "./images/phoneprod@2x.gif"
+       image = "./images/fax@2x.png"
      ></Image> 
 
 {/*        
@@ -60,13 +67,6 @@ function App() {
       image3 = "./images/computer@2x.png"
     ></TripleImage>  */}
 
-
-    <Fade> 
-    <Subtitle text = "Berkeley friends, this is for you!"></Subtitle>
-
-    <Manifesto></Manifesto>
-    </Fade>
-    <SignUp></SignUp>
 
     {/* <a href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "Join the Waitlist"></ConfirmButton> </a>  */}
     <Divider></Divider>
