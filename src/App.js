@@ -8,6 +8,8 @@ import Divider from './components/divider.js';
 import Footer from './components/footer';
 import Line from './components/line';
 import Paragraph from './components/line';
+import Highlighter from './components/highlighter';
+
 
 
 import Image from "./image";
@@ -36,24 +38,24 @@ import Fade from 'react-reveal/Fade';
 function App() {
   return (
     <div className="App">
-    <Alert text = "NEW:  We've started sending invites out to seniors from UC Berkeley from our waitlist!"></Alert>
-    <MyNavbar></MyNavbar>
+    {/* <Alert text = "NEW:  We've started sending invites out to seniors from UC Berkeley from our waitlist!"></Alert> */}
+    <div className="Container"> 
+    {/* <MyNavbar></MyNavbar> */}
+      <div className="Left"> 
+          <Title text = 'DROP FAX ON ADMIN, DOWNLOAD TEACH'></Title>
+        <Image
+          image = "./images/fax@2x.png"
+        ></Image> 
+      </div>
+      <div className="Right"> 
+        <Highlighter text = "TEACH IS A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Highlighter>
+        <Paragraph text = "POLICIES ON TESTING AND COLLABORATION HAVEN’T CAUGHT UP TO OUR NEW WORLD ONLINE.  IT’S A FACT THAT STUDENTS LEARN BETTER TOGETHER. SO WHY NOT FAX A MESSAGE ALONG TO UNIVERSITY ADMIN >:)?"></Paragraph>
+        <a href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> </a> 
+        <a href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "2. JOIN THE APP"></ConfirmButton> </a> 
+      </div>
+    </div>
 
 
-    <Title text = 'DROP FAX ON ADMIN, DOWNLOAD TEACH'></Title>
-    <Line text = "TEACH IS A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Line>
-    <Paragraph text = "POLICIES ON TESTING AND COLLABORATION HAVEN’T CAUGHT UP TO OUR NEW WORLD ONLINE.  IT’S A FACT THAT STUDENTS LEARN BETTER TOGETHER. SO WHY NOT FAX A MESSAGE ALONG TO UNIVERSITY ADMIN >:)?"></Paragraph>
-
-    <a href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> </a> 
-    <a href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "2. JOIN THE APP"></ConfirmButton> </a> 
-
-    {/* <Divider></Divider> */}
-    {/* <SignUp></SignUp> */}
-
-    
-     <Image
-       image = "./images/fax@2x.png"
-     ></Image> 
 
 {/*        
     <SplitImage

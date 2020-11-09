@@ -21,8 +21,9 @@ margin-bottom: 1.5em;
 
 const CaseTitle = styled.div`
     font-weight: normal;
-    font-family: Counterculture;
+    font-family: Courier;
     font-size: 64px;
+    color: red;
     line-height: 1.4;
     font-weight: 600;
     text-align: center;

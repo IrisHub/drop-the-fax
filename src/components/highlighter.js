@@ -5,9 +5,10 @@ const CaseLine = styled.div`
     font-weight: normal;
     font-family: Courier;
     text-align: left;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 40px;
-  
+    color: red;
+    background-color: rgba(255, 0, 0, 0.2);
 
 
 
@@ -27,11 +28,11 @@ const CaseLine = styled.div`
        }
 `;
 
-const Line = ( {text, color} ) => {
+const Highlighter = ( {text, color} ) => {
   return(
 
     <CaseLine > {text} </CaseLine>
   )
 }
 
-export default Line;
+export default Highlighter;

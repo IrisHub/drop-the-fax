@@ -1,7 +1,7 @@
 .cta-button{
     height: 48px;
     line-height: 5.5vh;
-    background-color: #F83D7B;
+    background-color: black;
     outline:none;
     border: 0px;
     border-radius: 2px;
@@ -16,9 +16,9 @@
     padding-left: 10px;
     padding-right: 10px;
 
-
+/* 
     margin-left: 40%;
-    margin-right: 40%;
+    margin-right: 40%; */
     text-align: center;
 
 }
@@ -26,9 +26,9 @@
 .cta-button:hover{
     background-color:white;
 
-    color: #F83D7B;
+    color: black;
     outline-style: solid;
-    border-color: #F83D7B;
+    border-color: black;
     border-width: 3px;
     line-height: 5.5vh;
 }
