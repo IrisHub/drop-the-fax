@@ -1,0 +1,131 @@
+.logo{
+    width: 72px;
+    height: 72px;
+    font-size: 34px;
+}
+
+a{
+    text-decoration:none; 
+    cursor:pointer;  
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #f03f6d
+}
+
+.footer-wrapper{
+    border-top-style: solid;
+    border-top-width: 0.3em;
+    border-top-color: #f7f7f7;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.footer-section-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-one-title, .section-two-title{
+  font-family: HelveticaBold;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 2em;
+
+}
+
+.section-one{
+    margin-right: 4em;
+}
+
+.section-one-title{
+   
+}
+
+.footer-text{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  
+}
+
+.section-two{
+    margin-left: 2em;
+    font-size: 18px;
+}
+
+.section-two-title{
+    margin-bottom: 1.5em;
+}
+
+.section-two-text{
+    margin-bottom: 0.5em;
+    font-family: Helvetica;
+    font-size: 18px;
+
+
+    
+}
+
+.icon-wrapper{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 0.7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.icon-wrapper:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 0.2em;
+    padding: 0.5em;
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.footerLink{
+    text-decoration: none;
+    color: black;
+}
+
+.footerLink:hover{
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .footer-section-wrapper{
+     flex-direction: column;
+    }
+
+    .section-two{
+        margin-left: 0px;
+    }
+
+    .section-one{
+        margin-right: 0px;
+    }
+
+    .footer-wrapper{
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+
+    .section-two-study{
+        margin-bottom: 0.8em;
+    }
+    
+}
+

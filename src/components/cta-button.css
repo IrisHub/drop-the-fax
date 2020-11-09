@@ -1,0 +1,47 @@
+.cta-button{
+    height: 48px;
+    line-height: 5.5vh;
+    background-color: #F83D7B;
+    outline:none;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+
+
+    font-family: HelveticaBold;
+    font-weight: black;
+    font-weight: 900;
+    font-size: 16px;
+    border-style: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+
+}
+
+.cta-button:hover{
+    background-color:white;
+
+    color: #F83D7B;
+    outline-style: solid;
+    border-color: #F83D7B;
+    border-width: 3px;
+    line-height: 5.5vh;
+}
+
+@media screen and (max-width: 500px){
+
+    .cta-button{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 3vw;
+
+    }
+  
+    
+  }
+  

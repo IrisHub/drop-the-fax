@@ -1,0 +1,114 @@
+.Form{
+    display: flex;
+    flex-direction: row;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+.SignUpContainer{
+    padding-bottom: 5em;
+
+}
+
+.SignUpButton{
+    
+    background-color:#F83D7B;
+    outline:none;
+    border: 0px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+
+
+    font-weight: black;
+    font-weight: 900;
+    font-size: 18px;
+    border-style: hidden;
+
+
+}
+
+.SignUpButton:hover{
+    background-color: white;
+    color: #F83D7B;
+    border-style: solid;
+    border-color:#F83D7B;
+    border-width: 3px;
+    cursor: pointer;
+
+}
+
+
+.SignUpInput{
+    border: solid 4px #000000;
+    font-size: 24px;
+    padding: 0.35em;
+    padding-left: 1em;
+    margin-right: 1em;
+    border-radius: 2px;
+
+}
+
+.SignUpTitle{
+    font-size: 18px;
+    padding-bottom: 1em;
+}
+
+.SignUpText{
+
+    color: #686868;
+    font-size: 16px;
+    width: 45%;
+    margin-bottom: 1em;
+
+      /* Required for text-overflow to do anything */
+}
+
+.SignUpEnd{
+    padding-bottom: 1em;
+}
+    
+.hidden{
+    display: none;
+}
+
+.AfterSubmit{
+    font-size: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+@media screen and (max-width: 700px){
+    
+    .Form{
+        flex-direction: column;
+    
+    }
+
+    .SignUpText{
+        width: 100%;
+    }
+
+    .SignUpButton{
+        margin-top: 1em;
+        margin-right: 0;
+    }
+
+    .SignUpInput{
+        margin-right: 0;
+    }
+ 
+    }
+
+@media screen and (max-width: 500px){
+    
+    .Form{
+        padding-bottom: 5em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+     
+        }

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: #fFFEF9;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Counterculture';
+  src: local('Counterculture'), url(./fonts/Counterculture.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Counterculture'), url(./fonts/Helvetica.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaBold';
+  src: local('Counterculture'), url(./fonts/Helvetica-Bold.ttf) format('truetype');
+}

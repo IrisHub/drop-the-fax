@@ -1,0 +1,88 @@
+/* 
+@font-face {
+    font-family: 'Rubik-Black';
+    src: url('../fonts/Rubik-Black.ttf') format('truetype'); 
+        
+} */
+
+.Navbar{
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 30%;
+    padding-right: 20%; */
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+
+    #about{
+      
+    }
+
+    #work{
+        margin-left: 80%;
+        margin-right: 7%;
+    }
+
+    .nav-text{
+       
+    }
+
+    .nav-link{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        color: black;
+    }
+
+    #logo-link{
+    }
+
+    .logo{
+        width: 48px;
+        height: 48px;
+        font-size: 34px;
+       text-align: center;
+
+    }
+
+    
+    
+
+
+@media screen and (max-width: 1000px){
+
+
+    .Navbar{
+        z-index: 12;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+   
+
+    .nav-text{
+        font-size: 14px;
+        margin-top: 0.2em;
+
+    }
+
+  
+
+    
+}
+
+
+@media screen and (max-width: 500px){
+
+   
+
+    
+}
+
+
