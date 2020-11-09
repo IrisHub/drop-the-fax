@@ -34,12 +34,12 @@
     line-height: 5.5vh;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
 
     .cta-button{
         margin-left: 5%;
         margin-right: 5%;
-        font-size: 3vw;
+        font-size: 18x;
 
     }
   
