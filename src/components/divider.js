@@ -9,14 +9,18 @@ const CaseDivider = styled.h1`
     padding-top: 2em;
     padding-bottom: 2em;
 
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     padding-left: 20%;
     padding-right: 20%;
 
     @media (max-width: 500px) {
-       padding-left: 7vw;
-       padding-right: 7vw;
+      padding-left: 7vw;
+      padding-right: 7vw;
+
+
+      padding-top: 1em;
+      padding-bottom: 1em;
            
          }
   

@@ -8,9 +8,9 @@
     color: white;
 
 
-    font-family: HelveticaBold;
+    font-family: Courier;
     font-weight: black;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 16px;
     border-style: hidden;
     padding-left: 10px;
@@ -19,7 +19,7 @@
 
 
     /* margin-left: 20%; */
-    margin-right: 40%; 
+    /* margin-right: 40%;  */
     text-align: center;
 
 }

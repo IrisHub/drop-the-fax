@@ -31,6 +31,17 @@
   margin-right: 10%;
 }
 
+.Button-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.Button{
+  flex:1;
+}
+
+.Label
+
 .signup{
   padding-left: 30%;
   padding-right: 30%;
@@ -79,14 +90,20 @@ a{
       margin-right: 0%;
   }
 
+  .Container{
+    flex-direction: column;
+  }
+
+  .Right{
+    margin-right: 0%;
+  }
+
+
   
 
 
 @media screen and (max-width: 550px){
 
-  .Container{
-    flex-direction: column;
-  }
 
   
 }
