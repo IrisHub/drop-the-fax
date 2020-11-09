@@ -44,7 +44,7 @@ function App() {
       <div className="Left"> 
           <Title text = 'DROP FAX ON ADMIN, DOWNLOAD TEACH'></Title>
         <Image
-          image = "./images/fax@2x.png"
+          image = "./images/print@2x.gif"
         ></Image> 
       </div>
       <div className="Right"> 
