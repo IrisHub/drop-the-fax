@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import styled, { css } from 'styled-components'
 
 const Wrapper = styled.div`
-margin-left: 20%;
-margin-right: 20%;
+margin-left: 10%;
+margin-right: 10%;
 margin-top: 1.5em;
 margin-bottom: 1.5em;
 

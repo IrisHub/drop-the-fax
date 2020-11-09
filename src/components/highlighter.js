@@ -4,6 +4,7 @@ import styled, { css } from 'styled-components';
 const CaseLine = styled.div`
     font-weight: normal;
     font-family: Courier;
+    font-weight: 600;
     text-align: left;
     font-size: 24px;
     line-height: 40px;

@@ -22,10 +22,13 @@
 
 .Left{
   flex:1;
+  /* margin-left: 10%; */
+
 }
 
 .Right{
   flex:1;
+  margin-right: 10%;
 }
 
 .signup{
@@ -77,4 +80,14 @@ a{
   }
 
   
+
+
+@media screen and (max-width: 550px){
+
+  .Container{
+    flex-direction: column;
+  }
+
+  
+}
 }

@@ -5,7 +5,7 @@ const CaseLine = styled.div`
     font-weight: normal;
     font-family: Courier;
     text-align: left;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 40px;
   
 
