@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Manifesto from "./manifesto";
+import Faxed from "./faxed";
+
 import ConfirmButton from './components/cta-button.js';
 import MyNavbar from './components/nav.js';
 import Divider from './components/divider.js';
@@ -25,6 +27,7 @@ import Alert from './components/alert.js'
 //power transitions on home
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import Fade from 'react-reveal/Fade';
+import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 
 
 
@@ -50,9 +53,12 @@ function App() {
       <div className="Right"> 
         <Divider></Divider>
         <Highlighter text = "TEACH IS A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Highlighter>
-        <Paragraph text = "POLICIES ON TESTING AND COLLABORATION HAVEN’T CAUGHT UP TO OUR NEW WORLD ONLINE.  IT’S A FACT THAT STUDENTS LEARN BETTER TOGETHER. SO WHY NOT FAX A MESSAGE ALONG TO UNIVERSITY ADMIN >:)?"></Paragraph>
+        <Paragraph text = "POLICIES ON COLLABORATION ON ASSIGNMENTS + TESTS HAVEN’T CAUGHT UP TO OUR NEW WORLD ONLINE. IT’S A FACT THAT STUDENTS LEARN BETTER TOGETHER."></Paragraph>
+        <Paragraph text = "SO WHY NOT FAX THE MESSAGE ALONG TO THE OFFICE OF THE PRESIDENT OF STANFORD, BERKELEY, HARVARD, YALE, PRINCETON & MIT? >:)"></Paragraph>
+
         <div className="Button-container"> 
-          <a className="Button" href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> </a> 
+        <Link to= {Faxed}> <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> </Link>
+          {/* <a className="Button" href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> </a>  */}
           <div className="Label">1200 FAXES</div>
         </div>
 

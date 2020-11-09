@@ -5,6 +5,8 @@ import App from './App';
 import Privacy from './privacy';
 import Tos from './tos';
 import Community from './community';
+import Faxed from './faxed';
+
 
 
 
@@ -41,6 +43,8 @@ const routing = (
         <Route path="/privacy" component={Privacy} />
         <Route path="/tos" component={Tos} />
         <Route path="/community" component={Community} />
+        <Route path="/faxed" component={Faxed} />
+
 
 
   
