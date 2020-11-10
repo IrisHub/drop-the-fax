@@ -15,6 +15,8 @@ import Highlighter from './components/highlighter';
 
 
 import Image from "./image";
+import SmallImage from "./small-img";
+
 import SplitImage from "./split-img";
 import TripleImage from "./triple-img";
 
@@ -34,64 +36,64 @@ import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 
 
 
-
-
-
-
 function App() {
   return (
     <div className="App">
-    {/* <Alert text = "NEW:  We've started sending invites out to seniors from UC Berkeley from our waitlist!"></Alert> */}
     <div className="Container"> 
     {/* <MyNavbar></MyNavbar> */}
-      <div className="Left"> 
-          <Title text = 'DROP FAX ON ADMIN, DOWNLOAD TEACH'></Title>
+    <Divider></Divider>
+    {/* <Title text = 'PRESS THIS BUTTON, FLOOD UNIVERSITY PRESIDENTS FROM 10 SCHOOLS WITH FAX MESSAGES'></Title> */}
+    <Title text = 'A PETITION TO MAKE OUR FINAL EXAMS COLLABORATIVE, BUT YOU SIGN IT BY FAXING EVERY UNIVERSITY PRESIDENT.'></Title>
+
+    
+    <div className="Main-container"> 
+
+      <div className="Left">  
         <Image
-          image = "./images/print@2x.gif"
-        ></Image> 
+            image = "./images/print@2x.gif"
+          ></Image> 
       </div>
+
       <div className="Right"> 
-        <Divider></Divider>
-        <Highlighter text = "TEACH IS A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Highlighter>
-        <Paragraph text = "POLICIES ON COLLABORATION ON ASSIGNMENTS + TESTS HAVEN’T CAUGHT UP TO OUR NEW WORLD ONLINE. IT’S A FACT THAT STUDENTS LEARN BETTER TOGETHER."></Paragraph>
-        <Paragraph text = "SO WHY NOT FAX THE MESSAGE ALONG TO THE OFFICE OF THE PRESIDENT OF STANFORD, BERKELEY, HARVARD, YALE, PRINCETON & MIT? >:)"></Paragraph>
+        <Link to= "/fax" className="Button"> 
+            {/* <ConfirmButton text = "FAX ALL THE ADMIN"></ConfirmButton>  */}
 
-        <div className="Button-container"> 
-        <Link to= "/faxed" className="Button"> 
-          <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> 
+        <Image
+            image = "./images/fax@3x.png"
+          ></Image> 
+
         </Link>
-          {/* <a className="Button" href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> </a>  */}
-          {/* <div className="Label">1200 FAXES</div> */}
-        </div>
 
-        <div className="Button-container"> 
-          <a className="Button" href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> <ConfirmButton text = "2. JOIN THE APP"></ConfirmButton> </a> 
-          {/* <div className="Label">301 STUDENTS</div> */}
 
-        </div>
+        
+
+      </div>
+
+      </div>
+
+      <div className="Text-container"> 
+
+
+        <Divider></Divider>
+        {/* <Highlighter text = "TEACH IS A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Highlighter> */}
+        <Paragraph text = "FAXES ARE STRANGE, OLD MACHINES.  KIND OF LIKE UNIVERSITY ADMIN."></Paragraph>
+        <Paragraph text = "AS STUDENTS, WE LEARN BEST WHEN WE CAN WORK TOGETHER ON ASSIGNMENTS.  BUT UNIVERSITIES HAVE POLICIES THAT RESTRICT COLLABORATION AND HAVEN'T CAUGHT UP TO LIFE ONLINE."></Paragraph>
+        {/* <Paragraph text = "FAXES ARE STRANGE, OLD MACHINES.  THEY’RE SIMILAR TO UNIVERSITY ADMIN."></Paragraph> */}
+        <Paragraph text = "ADMINISTRATORS HAVEN'T LISTENED TO PETITIONS.  BUT FLOODING AN OFFICE WITH THOUSANDS OF FAXES?  THAT'S A STATEMENT.  JOIN US IN DEMANDING THAT ALL FINAL EXAMS ARE COLLABORATIVE BY DEFAULT THIS YEAR. >:)"></Paragraph>
+        <Divider></Divider>
+
+      </div>
+
+      <div className="Cta-footer">
+        <div> This is a protest by TEACH.</div>
+        <a href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> DOWNLOAD TEACH NOW</a> 
+      </div>
+
+
 
       </div>
       
-    </div>
 
-
-
-{/*        
-    <SplitImage
-      image1 = "./images/computer@2x.png"
-      image2 = "./images/oski@2X.png"
-    ></SplitImage>  */}
-
-    {/* <TripleImage
-      image1 = "./images/oski@2x.png"
-      image2 = "./images/phoneprod@2x.png"
-      image3 = "./images/computer@2x.png"
-    ></TripleImage>  */}
-
-
-    {/* <a href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "Join the Waitlist"></ConfirmButton> </a>  */}
-    {/* <Divider></Divider> */}
-    {/* <Footer></Footer> */}
     </div>
   );
 }

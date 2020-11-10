@@ -40,15 +40,10 @@ const routing = (
         <Switch> 
 
         <Route exact path="/" component={App} />
-        <Route path="/faxed" component={Faxed} />
+        <Route path="/fax" component={Faxed} />
         <Route path="/privacy" component={Privacy} />
         <Route path="/tos" component={Tos} />
         <Route path="/community" component={Community} />
-
-
-
-  
-
         </Switch>
       </div>
     </Router>

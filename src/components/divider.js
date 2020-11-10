@@ -6,8 +6,8 @@ const CaseDivider = styled.h1`
     background-color: ${props => props.color};
     color: ${props => props.textcolor};
 
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 
     margin-top: 0.5em;
     margin-bottom: 0.5em;

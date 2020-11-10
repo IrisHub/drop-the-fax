@@ -53,11 +53,12 @@ const Faxed = ( {text, color} ) => {
 
     <div className="Faxed-Container-CTA">
         <div className = "Faxed-Text" >YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, HARVARD, YALE, PRINCETON & MIT. YOU'RE A COLLABORATION CHAMPION.</div>
-        <a className="Button" href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> <ConfirmButton text = "COLLAB ON TEACH"></ConfirmButton> </a> 
+        <Highlighter text = "WE'RE TEACH-- A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Highlighter>
+        <a className="Button" href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> <ConfirmButton text = "DOWNLOAD TEACH + COLLAB"></ConfirmButton> </a> 
 
         {/* <ConfirmButton text = "COLLAB ON TEACH"></ConfirmButton> */}
-        <Link to='/' className="Back">SEND MORE</Link>
-
+        <Link to='/' className="Back">SEND AGAIN?</Link>
+        <Divider></Divider>
     </div>
     
   </div>

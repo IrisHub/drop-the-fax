@@ -16,8 +16,8 @@
 }
 
 .Container{
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .Left{
@@ -36,12 +36,47 @@
   flex-direction: row;
 }
 
+.Main-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.Text-container{
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
 .Button{
   flex:2;
 }
 
 .Label{
   flex: 1;
+}
+
+.Circle{
+  height: 300px;
+  width: 300px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.Cta-footer{
+  font-weight: normal;
+  font-family: Courier ;
+  font-size: 18px;
+  line-height: 40px;
+  background-color: black;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.Cta-footer-button{
+  color:white;
 }
 
 .signup{
@@ -104,13 +139,14 @@ a{
     flex-direction: column;
   }
 
+  .Main-container{
+    flex-direction: column;
+  }
 
-  
+  .Text-container{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 
 
-@media screen and (max-width: 550px){
-
-
-  
-}
 }

@@ -1,8 +1,8 @@
 .Faxed-Container{
     display: flex;
     flex-direction: column;
-    /* margin-left: 50%;
-    margin-right: 50%; */
+    margin-left: 20%;
+    margin-right: 20%;
 
 }
 
@@ -46,6 +46,14 @@
         margin-right: 0%;
     
     }
+
+    .Faxed-Container{
+  
+        margin-left: 0%;
+        margin-right: 0%;
+    
+    }
+
 
     .Back{
         margin-left: 35%;
