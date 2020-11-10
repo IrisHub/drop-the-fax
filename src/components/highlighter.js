@@ -9,7 +9,7 @@ const CaseLine = styled.div`
     font-size: 24px;
     line-height: 40px;
     color: red;
-    background-color: rgba(255, 0, 0, 0.2);
+    background-color: rgba(255, 0, 0, 0.1);
 
 
 

@@ -57,16 +57,16 @@ function App() {
         <Paragraph text = "SO WHY NOT FAX THE MESSAGE ALONG TO THE OFFICE OF THE PRESIDENT OF STANFORD, BERKELEY, HARVARD, YALE, PRINCETON & MIT? >:)"></Paragraph>
 
         <div className="Button-container"> 
-        <Link to= "/faxed"> 
+        <Link to= "/faxed" className="Button"> 
           <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> 
         </Link>
           {/* <a className="Button" href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> </a>  */}
-          <div className="Label">1200 FAXES</div>
+          {/* <div className="Label">1200 FAXES</div> */}
         </div>
 
         <div className="Button-container"> 
           <a className="Button" href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> <ConfirmButton text = "2. JOIN THE APP"></ConfirmButton> </a> 
-          <div className="Label">301 STUDENTS</div>
+          {/* <div className="Label">301 STUDENTS</div> */}
 
         </div>
 

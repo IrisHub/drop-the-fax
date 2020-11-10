@@ -37,10 +37,12 @@
 }
 
 .Button{
-  flex:1;
+  flex:2;
 }
 
-.Label
+.Label{
+  flex: 1;
+}
 
 .signup{
   padding-left: 30%;

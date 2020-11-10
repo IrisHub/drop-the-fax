@@ -35,6 +35,10 @@ import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import Fade from 'react-reveal/Fade';
 import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 
+//Hello intrepid Computer Science explorer!  You're likely wondering just how we fax people in the first place.
+//You've come to the right place. You'll notice our code doesn't immediately send out a fax onClick.
+//That's intentional.  Instead of sending individually, we batch send using third-party software.  
+//Maybe a little less fun, but then again... there's not much fun when it comes to fax machines.  Keep exploring :) 
 
 
 const Faxed = ( {text, color} ) => {
@@ -47,8 +51,15 @@ const Faxed = ( {text, color} ) => {
     image = "./images/print@2x.gif"
   ></SmallImage> 
 
-    <Line text = "YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, HARVARD, YALE, PRINCETON & MIT. "></Line>
-    <Link to='/'>Send another one</Link>
+    <div className="Faxed-Container-CTA">
+        <div className = "Faxed-Text" >YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, HARVARD, YALE, PRINCETON & MIT. YOU'RE A COLLABORATION CHAMPION.</div>
+        <a className="Button" href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> <ConfirmButton text = "COLLAB ON TEACH"></ConfirmButton> </a> 
+
+        {/* <ConfirmButton text = "COLLAB ON TEACH"></ConfirmButton> */}
+        <Link to='/' className="Back">SEND MORE</Link>
+
+    </div>
+    
   </div>
   )
 }
