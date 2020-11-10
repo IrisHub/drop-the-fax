@@ -1,4 +1,4 @@
-.small-img{
+.img{
     width: 76%;
     margin-left: 12%;
     margin-right: 12%;
@@ -9,7 +9,7 @@
 @media (max-width: 800px) {
 
     
-    .small-img{
+    .img{
         width: 80%;
         margin-right: 7vw;
         margin-left: 7vw;

@@ -7,45 +7,50 @@ import React, {Component} from 'react';
 // import '../components/oppPage.css';
 // import Backdrop from '../components/backdrop.js';
 
-import { withRouter, page, Link, BrowserRouter as Router, Route } from 'react-router-dom';
+import styled, { css } from 'styled-components';
+import logo from './logo.svg';
+import './faxed.css';
+import Manifesto from "./manifesto";
+
+import ConfirmButton from './components/cta-button.js';
+import MyNavbar from './components/nav.js';
+import Divider from './components/divider.js';
+import Footer from './components/footer';
+import Line from './components/line';
+import Paragraph from './components/line';
+import Highlighter from './components/highlighter';
+
+import SmallImage from "./small-img";
+import SplitImage from "./split-img";
+import TripleImage from "./triple-img";
+
+import SignUp from "./signup";
 
 
-class Faxed extends React.Component{
+import Title from './components/title.js'
+import Subtitle from './components/subtitle.js'
+import Alert from './components/alert.js'
+//power transitions on home
+import {CSSTransition, TransitionGroup} from 'react-transition-group';
+import Fade from 'react-reveal/Fade';
+import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 
-    constructor(props){
-        super(props);
-        this.state = {
-            content: [],
-            copied: false
-            //id : this.props.match.params.id
-        };
-    }
 
-    componentDidMount() {
-        // //let idString = this.props.id;
-        // fetch('/api' + this.props.match.url)
-        //   .then(res => res.json())
-        //   .then((data) => {
-        //     this.setState({ content: data })
-        //   })
-        //   .catch(console.log)
-      }
- 
-    render() {
-        //console.log(idString)
-                    //console.log(this.state.content)
-        // console.log(this.props.match.params.id)
-        var e;
-        return (
 
-            <div className = 'wrapper'>
-                <div className = 'test'>Hi</div>
+const Faxed = ( {text, color} ) => {
+  return(
+      <div className="Faxed-Container"> 
 
-        
-            </div>
-        );
-    }
-  }
-  
+    <Title text = "FAXED!"></Title>
+
+    <SmallImage className = "Print"
+    image = "./images/print@2x.gif"
+  ></SmallImage> 
+
+    <Line text = "YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, HARVARD, YALE, PRINCETON & MIT. "></Line>
+    <Link to='/'>Send another one</Link>
+  </div>
+  )
+}
+
 export default Faxed;
-

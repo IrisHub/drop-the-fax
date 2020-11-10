@@ -57,7 +57,9 @@ function App() {
         <Paragraph text = "SO WHY NOT FAX THE MESSAGE ALONG TO THE OFFICE OF THE PRESIDENT OF STANFORD, BERKELEY, HARVARD, YALE, PRINCETON & MIT? >:)"></Paragraph>
 
         <div className="Button-container"> 
-        <Link to= {Faxed}> <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> </Link>
+        <Link to= "/faxed"> 
+          <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> 
+        </Link>
           {/* <a className="Button" href = "https://irisapp.typeform.com/to/aER0lIzm" target = "_blank"> <ConfirmButton text = "1. FAX IT TO ADMIN"></ConfirmButton> </a>  */}
           <div className="Label">1200 FAXES</div>
         </div>

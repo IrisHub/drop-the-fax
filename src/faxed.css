@@ -1,0 +1,9 @@
+.Faxed-Container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .Print{
+    margin-left: 30%;
+    width: 30%;
+} */

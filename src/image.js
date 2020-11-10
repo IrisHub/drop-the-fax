@@ -8,7 +8,7 @@ import './image.css';
 const Image = ( {image, caption, color} ) => {
   return(
       <React.Fragment> 
-      <img className = "small-img" src ={require(`${image}`)} /> 
+      <img className = "img" src ={require(`${image}`)} /> 
       </React.Fragment>
   )
 }
