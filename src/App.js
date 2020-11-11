@@ -76,6 +76,7 @@ function App() {
 
         <Divider></Divider>
         {/* <Highlighter text = "TEACH IS A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Highlighter> */}
+        <Highlighter text = "WHY FAX?"></Highlighter>
         <Paragraph text = "FAXES ARE STRANGE, OLD MACHINES.  KIND OF LIKE UNIVERSITY ADMIN."></Paragraph>
         <Paragraph text = "AS STUDENTS, WE LEARN BEST WHEN WE CAN WORK TOGETHER ON ASSIGNMENTS.  BUT UNIVERSITIES HAVE POLICIES THAT RESTRICT COLLABORATION AND HAVEN'T CAUGHT UP TO LIFE ONLINE."></Paragraph>
         {/* <Paragraph text = "FAXES ARE STRANGE, OLD MACHINES.  THEY’RE SIMILAR TO UNIVERSITY ADMIN."></Paragraph> */}
