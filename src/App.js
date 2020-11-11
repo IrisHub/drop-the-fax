@@ -43,7 +43,7 @@ function App() {
     {/* <MyNavbar></MyNavbar> */}
     <Divider></Divider>
     {/* <Title text = 'PRESS THIS BUTTON, FLOOD UNIVERSITY PRESIDENTS FROM 10 SCHOOLS WITH FAX MESSAGES'></Title> */}
-    <Title text = 'A PETITION TO MAKE OUR FINAL EXAMS COLLABORATIVE, BUT YOU SIGN IT BY FAXING EVERY UNIVERSITY PRESIDENT.'></Title>
+    <Title text = 'A PETITION TO MAKE OUR FINAL EXAMS COLLABORATIVE, BUT YOU SIGN IT BY FLOODING UNIVERSITY PRESIDENTS WITH FAX MESSAGES.'></Title>
 
     
     <div className="Main-container"> 
