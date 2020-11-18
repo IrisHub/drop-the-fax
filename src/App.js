@@ -62,8 +62,9 @@ function App() {
       </div>
 
       <div className="Right"> 
-        {/* <div className="Label1"> 10,321 FAXES </div> */}
+        <div className="Label1"> 
         <Label></Label>
+        </div>
         <Link to= "/fax" className="Button"> 
             {/* <ConfirmButton text = "FAX ALL THE ADMIN"></ConfirmButton>  */}
 
@@ -77,7 +78,10 @@ function App() {
         </Link>
         {/* <img className = "img-hero" id = "carmen" src = {flame} /> */}
         {/* <div className="Label2"> 10,321 FAXES </div> */}
+        <div className="Label2"> 
+
         <Label></Label>
+        </div>
 
 
 
