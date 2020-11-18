@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import styled, { css } from 'styled-components'
 
 const Wrapper = styled.div`
-padding-left: 10%;
-padding-right: 10%;
+// padding-left: 10%;
+// padding-right: 10%;
+padding: 8%;
 // margin-bottom: 1.5em;
 border-style: solid;
 border-color: red;

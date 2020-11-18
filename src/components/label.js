@@ -2,6 +2,8 @@ import axios from 'axios';
 import React, {Component} from 'react'; 
 import '../components/label.css';
 // import ConfirmButton from '../components/confirmButton';
+import flame from '../images/flame.svg';
+
 
 
 //refactor into a controlled component 
@@ -20,9 +22,6 @@ class Label extends Component{
                 copied: false
             };
         }
-    changeHandler = e => {
-        this.setState({name: e.target.value});
-    }
 
     componentDidMount(){
         // axios.post('https://s27ryscmt6.execute-api.us-west-1.amazonaws.com/staging')
@@ -35,12 +34,6 @@ class Label extends Component{
             });
     }
 
-
-    submitHandler = e => {
-        e.preventDefault()
-        console.log("should input test data" +this.state)
-       
-    }
      
     render() 
     
@@ -49,14 +42,12 @@ class Label extends Component{
 
         const {name} = this.state
         return (
-            <div className = "FormContainer"> 
-            
-            {/* <div className = "Label">Count is{this.state.count} </div> */}
-            <div className = "Label">{this.state.count} FAXES </div>
-
-          
-          
+            <div className="Button-container"> 
+                <img src={flame} className = 'Icon'></img>
+                <div className = "Label">{this.state.count} FAXES </div>
             </div>
+          
+          
         );
     }
   }
