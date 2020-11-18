@@ -199,6 +199,7 @@ a{
   }
 
   .Label1{
+  flex-direction: column;
   padding-left: 0%;
   padding-bottom: 5%;
   padding-top: 0%;
@@ -206,6 +207,8 @@ a{
 
 
   .Label2{
+    flex-direction: column;
+
     padding-left:0%;
     padding-bottom: 5%;
     padding-top: 0%;
