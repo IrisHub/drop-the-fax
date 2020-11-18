@@ -69,7 +69,7 @@ class Faxed extends Component{
         return (
             <div className="Faxed-Container"> 
 
-            <Title text = "YOU FAXED 10 UNIVERSITY PRESIDENTS!"></Title>
+            <Title text = "YOU JUST SENT 10 FAXES TO 10 UNIVERSITY PRESIDENTS!"></Title>
         
             <SmallImage className = "Print"
             image = "./images/print@2x.gif"

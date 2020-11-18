@@ -1,15 +1,14 @@
 .cta-button{
     height: 48px;
     line-height: 5.5vh;
-    background-color: black;
+    background-color: red;
     outline:none;
     border: 0px;
     border-radius: 2px;
     color: white;
 
 
-    font-family: Courier;
-    font-weight: black;
+    font-family: Teight;
     font-weight: 600;
     font-size: 18px;
     border-style: hidden;
