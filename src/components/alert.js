@@ -2,17 +2,18 @@ import React, {Component} from 'react';
 import styled, { css } from 'styled-components';
 
 const CaseLine = styled.div`
-    font-weight: normal;
-    font-family: Courier ;
+    font-family: Courier;
+    font-weight: 600px;
     font-size: 18px;
     line-height: 40px;
-    background-color: black;
+    background-color: red;
     color: white;
     padding-top: 1em;
     padding-bottom: 1em;
     // padding-left: 30%;
     // padding-right: 30%;
     text-align: center;
+
 
 
 

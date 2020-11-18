@@ -7,12 +7,12 @@
 a{
     text-decoration:none; 
     cursor:pointer;  
-    color: red;
+    color: white;
 }
 
 a:visited{
     text-decoration: none;
-    color: red;
+    color: white;
 }
 
 a:hover{
