@@ -20,6 +20,11 @@ code {
 }
 
 @font-face {
+  font-family: 'Teight';
+  src: local('Teight'), url(./fonts/Teight.ttf) format('truetype');
+}
+
+@font-face {
   font-family: 'Helvetica';
   src: local('Counterculture'), url(./fonts/Helvetica.ttf) format('truetype');
 }

@@ -34,6 +34,8 @@ import Alert from './components/alert.js'
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import Fade from 'react-reveal/Fade';
 import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
+import axios from 'axios';
+
 
 //Hello intrepid Computer Science explorer!  You're likely wondering just how we fax people in the first place.
 //You've come to the right place. You'll notice our code doesn't immediately send out a fax onClick.
@@ -41,28 +43,52 @@ import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 //Maybe a little less fun, but then again... there's not much fun when it comes to fax machines.  Keep exploring :) 
 
 
-const Faxed = ( {text, color} ) => {
-  return(
-      <div className="Faxed-Container"> 
+class Faxed extends Component{
 
-    <Title text = "YOU FAXED 10 UNIVERSITY PRESIDENTS!"></Title>
+    constructor(props){
+        super(props);
+            this.state = {
+                new_count: false
+            };
+        }
+  
 
-    <SmallImage className = "Print"
-    image = "./images/print@2x.gif"
-  ></SmallImage> 
+    componentDidMount(){
+        // axios.post('https://s27ryscmt6.execute-api.us-west-1.amazonaws.com/staging')
+        axios.post('https://l2wmf923e0.execute-api.us-west-1.amazonaws.com/fns/fax')
+        .then((success) => {
+            this.setState({new_count: success.data })
+            // this.props.currView.setState({ curr: "User: " + success.data.first_name + " " + success.data.last_name });
+            }, function (err) {
+            console.log("err"+err); //prints ‘failure reason’ if rejected’
+            });
+    }
+     
+    render() {
+        console.log(this.state.new_count)
+        return (
+            <div className="Faxed-Container"> 
 
-    <div className="Faxed-Container-CTA">
-        <div className = "Faxed-Text" >YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, MIT & EVERY IVY LEAGUE PRES. YOU'RE A COLLABORATION CHAMPION.</div>
-        <Highlighter text = "WE'RE TEACH-- A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Highlighter>
-        <a className="Button" href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> <ConfirmButton text = "DOWNLOAD TEACH + COLLAB"></ConfirmButton> </a> 
-
-        {/* <ConfirmButton text = "COLLAB ON TEACH"></ConfirmButton> */}
-        <Link to='/' className="Back">FAX AGAIN?</Link>
-        <Divider></Divider>
-    </div>
-    
-  </div>
-  )
-}
-
-export default Faxed;
+            <Title text = "YOU FAXED 10 UNIVERSITY PRESIDENTS!"></Title>
+        
+            <SmallImage className = "Print"
+            image = "./images/print@2x.gif"
+          ></SmallImage> 
+        
+            <div className="Faxed-Container-CTA">
+                <div className = "Faxed-Text" >YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, MIT & EVERY IVY LEAGUE PRES. YOU'RE A COLLABORATION CHAMPION.</div>
+                <Highlighter text = "WE'RE TEACH-- A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Highlighter>
+                <a className="Button" href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> <ConfirmButton text = "DOWNLOAD TEACH + COLLAB"></ConfirmButton> </a> 
+        
+                {/* <ConfirmButton text = "COLLAB ON TEACH"></ConfirmButton> */}
+                <Link to='/' className="Back">FAX AGAIN?</Link>
+                <Divider></Divider>
+            </div>
+            
+          </div>
+         
+        );
+    }
+  }
+  
+  export default Faxed;

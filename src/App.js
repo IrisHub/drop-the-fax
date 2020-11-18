@@ -11,6 +11,10 @@ import Footer from './components/footer';
 import Line from './components/line';
 import Paragraph from './components/line';
 import Highlighter from './components/highlighter';
+import Label from './components/label';
+import FaxButton from './faxbutton';
+
+
 
 
 
@@ -30,6 +34,9 @@ import Alert from './components/alert.js'
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import Fade from 'react-reveal/Fade';
 import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
+import flame from './images/redflame@2x.png';
+import button from './images/redbutton@3X.png';
+
 
 
 
@@ -41,7 +48,7 @@ function App() {
     <div className="App">
     <div className="Container"> 
     {/* <MyNavbar></MyNavbar> */}
-    <Divider></Divider>
+    {/* <Divider></Divider> */}
     {/* <Title text = 'PRESS THIS BUTTON, FLOOD UNIVERSITY PRESIDENTS FROM 10 SCHOOLS WITH FAX MESSAGES'></Title> */}
     <Title text = 'A PETITION TO MAKE OUR FINAL EXAMS COLLABORATIVE, BUT YOU SIGN IT BY FLOODING UNIVERSITY PRESIDENTS WITH FAX MESSAGES.'></Title>
 
@@ -55,14 +62,24 @@ function App() {
       </div>
 
       <div className="Right"> 
+        {/* <div className="Label1"> 10,321 FAXES </div> */}
+        <Label></Label>
         <Link to= "/fax" className="Button"> 
             {/* <ConfirmButton text = "FAX ALL THE ADMIN"></ConfirmButton>  */}
 
         <Image
-            image = "./images/fax@3x.png"
+            image = "./images/redbutton@3X.png"
           ></Image> 
 
+        {/* <img className = "Button-img" id = "carmen" src = {button} /> */}
+
+
         </Link>
+        {/* <img className = "img-hero" id = "carmen" src = {flame} /> */}
+        {/* <div className="Label2"> 10,321 FAXES </div> */}
+        <Label></Label>
+
+
 
 
         
@@ -74,7 +91,6 @@ function App() {
       <div className="Text-container"> 
 
 
-        <Divider></Divider>
         {/* <Highlighter text = "TEACH IS A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Highlighter> */}
         <Highlighter text = "WHY FAX?"></Highlighter>
         <Paragraph text = "FAXES ARE STRANGE, OLD MACHINES.  KIND OF LIKE UNIVERSITY ADMIN."></Paragraph>

@@ -23,12 +23,34 @@
 .Left{
   flex:1;
   /* margin-left: 10%; */
+  border-style: solid;
+  border-color: red;
+  border-top: none;
+  border-width: 4;
 
 }
 
 .Right{
-  flex:1;
-  margin-right: 10%;
+  flex:2;
+  /* margin-right: 10%; */
+  border-style: solid;
+  border-color: red;
+  border-left: none;
+  border-top: none;
+  border-width: 4;
+
+  /* padding-left: 5%;
+  padding-right: 5%; */
+
+  display: flex;
+  flex-direction: row;
+
+  color: red;
+  font-weight: 600;
+
+
+
+
 }
 
 .Button-container{
@@ -48,11 +70,36 @@
 }
 
 .Button{
-  flex:2;
+  /* flex:2; */
+  text-align: center;
+  flex: 3
 }
 
-.Label{
-  flex: 1;
+.Button-img{
+  width: 100%;
+  /* margin-left: 12%;
+  margin-right: 12%; */
+  /* margin-top: 1.5em;
+  margin-bottom: 1.5em; */
+}
+
+.Label1{
+  padding-top: 20%;
+
+  font-family: Teight;
+  font-size: 48px;
+  text-align: center;
+
+  flex: 2;
+}
+
+.Label2{
+  padding-top: 20%;
+  font-family: Teight;
+
+  font-size: 48px;
+  text-align: center;
+  flex: 2;
 }
 
 .Circle{
