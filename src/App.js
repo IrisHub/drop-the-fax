@@ -68,11 +68,11 @@ function App() {
         <Link to= "/fax" className="Button"> 
             {/* <ConfirmButton text = "FAX ALL THE ADMIN"></ConfirmButton>  */}
 
-        <Image
+        {/* <Image
             image = "./images/redbutton@3X.png"
-          ></Image> 
+          ></Image>  */}
 
-        {/* <img className = "Button-img" id = "carmen" src = {button} /> */}
+        <img className = "Button-img" id = "carmen" src = {button} />
 
 
         </Link>
