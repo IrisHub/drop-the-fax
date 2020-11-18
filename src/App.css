@@ -23,9 +23,10 @@
 .Left{
   flex:1;
   /* margin-left: 10%; */
-  border-style: solid;
+  border: 4px solid red;
+  /* border-style: solid;
   border-color: red;
-  border-top: none;
+  border-top: none; */
   border-width: 4;
 
 }
@@ -33,11 +34,13 @@
 .Right{
   flex:2;
   /* margin-right: 10%; */
-  border-style: solid;
-  border-color: red;
+  border: 4px solid red;
+
+  /* border-style: solid;
+  border-color: red; */
   /* border-left: none;
   border-top: none; */
-  border-width: 4;
+  /* border-width: 4; */
 
   /* padding-left: 5%;
   padding-right: 5%; */
@@ -84,21 +87,22 @@
 }
 
 .Label1{
-  /* padding-top: 20%;
-
+/* 
   font-family: Teight;
   font-size: 48px;
-  text-align: center; */
+  text-align: center; */ 
+  padding-top: 10%;
 
   flex: 2;
 }
 
 .Label2{
-  /* padding-top: 20%;
-  font-family: Teight;
+  /* font-family: Teight;
 
   font-size: 48px;
   text-align: center; */
+  padding-top: 10%;
+
   flex: 2;
 }
 
