@@ -5,7 +5,7 @@ import '../index.css';
 
 // import Social from "./components/social";
 import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import iris from '../images/irislogodark@6x.png';
+// import iris from '../images/irislogodark@6x.png';
 
 
 const Contact = styled.div`
