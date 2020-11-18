@@ -12,3 +12,12 @@
 .Icon{
     width:12%;
 }
+
+@media screen and (max-width: 1000px){
+
+    .Fax-container{
+        flex-direction: row;
+
+    }
+
+}
