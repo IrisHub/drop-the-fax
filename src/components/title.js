@@ -2,18 +2,20 @@ import React, {Component} from 'react';
 import styled, { css } from 'styled-components'
 
 const Wrapper = styled.div`
-// padding-left: 10%;
-// padding-right: 10%;
+
 padding: 8%;
+padding-left: 20%;
+padding-right: 20%;
+
 // margin-bottom: 1.5em;
 border-style: solid;
 border-color: red;
-border-width: 4;
+border-width: 3px;
 
 
 @media (max-width: 800px) {
-    // margin-left: 7vw;
-    // margin-right: 7vw;
+    padding-left: 0;
+    padding-right: 0;
    }
 
    @media (max-width: 500px) {
@@ -26,7 +28,7 @@ border-width: 4;
 const CaseTitle = styled.div`
     font-weight: normal;
     font-family: Courier;
-    font-size: 64px;
+    font-size: 48px;
     color: red;
     line-height: 1.4;
     // font-weight: 600;
