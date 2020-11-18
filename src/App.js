@@ -107,7 +107,10 @@ function App() {
 
       <div className="Cta-footer">
         <div> This is a protest by TEACH.</div>
-        <a href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> DOWNLOAD TEACH NOW</a> 
+        <div className="Signup-wrapper"> 
+        <SignUp></SignUp>
+        </div>
+        {/* <a href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> DOWNLOAD TEACH NOW</a>  */}
       </div>
 
 

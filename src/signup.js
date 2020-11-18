@@ -20,7 +20,7 @@ class SignUp extends Component{
             this.state = {
                 email: "",
                 submitted: false,
-                emailIsValid: false,
+                emailIsValid: true,
 
             };
         }
@@ -37,7 +37,8 @@ class SignUp extends Component{
 
     submitHandler = e => {
         e.preventDefault()
-        this.validateEmail()
+        // this.validateEmail()
+        //consider changing
         var api_key = "keybJqjUajlwC1xA6"
 
         if (this.state.emailIsValid){
@@ -65,10 +66,10 @@ class SignUp extends Component{
             <div className = "SignUpContainer"> 
     
             <form onSubmit= {this.submitHandler} className = "Form">
-                <input className = "SignUpInput" type = "text" placeholder = "Enter your email" 
+                <input className = "SignUpInput" type = "text" placeholder = "ENTER EMAIL" 
                 value ={this.state.email} onChange = {this.changeHandler}>
                 </input>
-                <button type = "submit" className = {this.state.copied ? "hidden": "SignUpButton"} onClick = {this.myClick}> Join Waitlist
+                <button type = "submit" className = {this.state.copied ? "hidden": "SignUpButton"} > JOIN UP
                 </button>
             </form>
 

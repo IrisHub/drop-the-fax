@@ -121,6 +121,12 @@
   flex: 2;
 }
 
+.Signup-wrapper{
+  padding-left: 35%;
+  padding-right: 30%;
+
+}
+
 .Circle{
   height: 300px;
   width: 300px;

@@ -1,8 +1,8 @@
 .Form{
     display: flex;
     flex-direction: row;
-    padding-left: 35%;
-    padding-right: 35%;
+    /* padding-left: 35%;
+    padding-right: 35%; */
 }
 
 .SignUpContainer{
@@ -23,9 +23,9 @@
     border-radius: 2px;
 
 
-    font-weight: black;
+    font-family: Teight;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 36px;
     border-style: hidden;
 
 
@@ -44,11 +44,15 @@
 
 .SignUpInput{
     border: solid 4px #000000;
-    font-size: 24px;
+    font-size: 36px;
     padding: 0.35em;
     padding-left: 1em;
+    padding-right: 15%;;
+
     margin-right: 1em;
     border-radius: 2px;
+    font-family: Teight;
+
 
 }
 
@@ -76,7 +80,8 @@
 }
 
 .AfterSubmit{
-    font-size: 18px;
+    font-size: 24px;
+    font-family: Teight;
     padding-top: 7px;
     padding-bottom: 7px;
 }
