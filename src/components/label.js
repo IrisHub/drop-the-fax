@@ -42,7 +42,7 @@ class Label extends Component{
 
         const {name} = this.state
         return (
-            <div className="Button-container"> 
+            <div className="Fax-container"> 
                 <img src={flame} className = 'Icon'></img>
                 <div className = "Label">{this.state.count} FAXES </div>
             </div>
