@@ -50,14 +50,16 @@ function App() {
     {/* <MyNavbar></MyNavbar> */}
     {/* <Divider></Divider> */}
     {/* <Title text = 'PRESS THIS BUTTON, FLOOD UNIVERSITY PRESIDENTS FROM 10 SCHOOLS WITH FAX MESSAGES'></Title> */}
-    <Title text = 'A PETITION TO MAKE OUR FINAL EXAMS COLLABORATIVE, BUT YOU SIGN IT BY FLOODING UNIVERSITY PRESIDENTS WITH FAX MESSAGES.'></Title>
+    {/* <Title text = 'A PETITION TO MAKE OUR FINAL EXAMS COLLABORATIVE, BUT YOU SIGN IT BY FLOODING UNIVERSITY PRESIDENTS WITH FAX MESSAGES.'></Title> */}
+    <Title text = 'DROP THE FAX:  PROTEST FULL TUITION IN ONLINE SCHOOL BY FLOODING EVERY UNIVERSITY PRESIDENT WITH FAX MESSAGES'></Title>
+
 
     
     <div className="Main-container"> 
 
       <div className="Left">  
         <Image
-            image = "./images/print@2x.gif"
+            image = "./images/print.gif"
           ></Image> 
       </div>
 
@@ -106,7 +108,7 @@ function App() {
       </div>
 
       <div className="Cta-footer">
-        <div> This is a protest by TEACH.</div>
+        <div className= "Footer-text"> This is a protest by TEACH.  Drop your email if you want to see what we make next. </div>
         <div className="Signup-wrapper"> 
         <SignUp></SignUp>
         </div>
