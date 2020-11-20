@@ -89,7 +89,7 @@ function App() {
         <Label></Label>
 
         </div>
-        <div className="Share-text">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES</div>
+        {/* <div className="Share-text">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES</div> */}
 
 
 
