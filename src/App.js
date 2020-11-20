@@ -69,35 +69,27 @@ function App() {
           ></Image> 
       </div>
 
-      <div className="Right"> 
-        <div className="Label1"> 
+      <div className="Middle"> 
+        <div className="LabelTop"> 
         <Label></Label>
         </div>
         <Link to= "/fax" className="Button"> 
-            {/* <ConfirmButton text = "FAX ALL THE ADMIN"></ConfirmButton>  */}
-
-        {/* <Image
-            image = "./images/redbutton@3X.png"
-          ></Image>  */}
-
-        <img className = "Button-img" src = {button} />
-
-
+          <img className = "Button-img" src = {button} />
         </Link>
         {/* <img className = "img-hero" id = "carmen" src = {flame} /> */}
         {/* <div className="Label2"> 10,321 FAXES </div> */}
-        <div className="Label2"> 
+        {/* <div className="Label2"> 
+          <Label></Label>
 
-        <Label></Label>
-
-        </div>
+        </div> */}
         {/* <div className="Share-text">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES</div> */}
 
+      </div>
 
-
-
-        
-
+      <div className="Left">  
+        <Image
+            image = "./images/print.gif"
+          ></Image> 
       </div>
 
       </div>
