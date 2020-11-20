@@ -13,6 +13,8 @@ import Paragraph from './components/line';
 import Highlighter from './components/highlighter';
 import Label from './components/label';
 import Marquee from './components/marquee';
+import RevMarquee from './components/reverse-marquee';
+
 
 import FaxButton from './faxbutton';
 
@@ -121,9 +123,11 @@ function App() {
         {/* <a href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> DOWNLOAD TEACH NOW</a>  */}
       </div>
 
+      <RevMarquee></RevMarquee>
 
 
       </div>
+
       
 
     </div>
