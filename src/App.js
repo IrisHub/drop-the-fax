@@ -78,7 +78,7 @@ function App() {
             image = "./images/redbutton@3X.png"
           ></Image>  */}
 
-        <img className = "Button-img" id = "carmen" src = {button} />
+        <img className = "Button-img" src = {button} />
 
 
         </Link>
@@ -87,7 +87,9 @@ function App() {
         <div className="Label2"> 
 
         <Label></Label>
+
         </div>
+        <div className="Share-text">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES</div>
 
 
 
@@ -102,11 +104,11 @@ function App() {
 
 
         {/* <Highlighter text = "TEACH IS A NEW APP AT STANFORD THAT LETS YOU COLLAB ANONYMOUSLY W/ UR CLASS"></Highlighter> */}
-        <Highlighter text = "WHY FAX?"></Highlighter>
-        <Paragraph text = "FAXES ARE STRANGE, OLD MACHINES.  KIND OF LIKE UNIVERSITY ADMIN."></Paragraph>
+        {/* <Highlighter text = "WHY FAX?"></Highlighter> */}
+        {/* <Paragraph text = "FAXES ARE STRANGE, OLD MACHINES.  KIND OF LIKE UNIVERSITY ADMIN."></Paragraph> */}
         {/* <Paragraph text = "AS STUDENTS, WE LEARN BEST WHEN WE CAN WORK TOGETHER ON ASSIGNMENTS.  BUT UNIVERSITIES HAVE POLICIES THAT RESTRICT COLLABORATION AND HAVEN'T CAUGHT UP TO LIFE ONLINE."></Paragraph> */}
         {/* <Paragraph text = "FAXES ARE STRANGE, OLD MACHINES.  THEY’RE SIMILAR TO UNIVERSITY ADMIN."></Paragraph> */}
-        <Paragraph text = "ADMINISTRATORS HAVEN'T LISTENED TO PETITIONS.  BUT FLOODING AN OFFICE WITH THOUSANDS OF FAXES?  THAT'S A STATEMENT.  JOIN US TO PROTEST FULL TUITION IN ONLINE SCHOOL THIS YEAR. "></Paragraph>
+        {/* <Paragraph text = "ADMINISTRATORS HAVEN'T LISTENED TO PETITIONS.  BUT FLOODING AN OFFICE WITH THOUSANDS OF FAXES?  THAT'S A STATEMENT.  JOIN US TO PROTEST FULL TUITION IN ONLINE SCHOOL THIS YEAR. "></Paragraph> */}
         <Divider></Divider>
 
       </div>
