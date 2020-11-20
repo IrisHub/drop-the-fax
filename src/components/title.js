@@ -3,9 +3,9 @@ import styled, { css } from 'styled-components'
 
 const Wrapper = styled.div`
 
-padding: 8%;
-padding-left: 20%;
-padding-right: 20%;
+padding: 4%;
+padding-left: 10%;
+padding-right: 10%;
 
 // margin-bottom: 1.5em;
 border-style: solid;
@@ -27,7 +27,7 @@ border-width: 3px;
 
 const CaseTitle = styled.div`
     font-weight: normal;
-    font-family: Courier;
+    font-family: Arial-black;
     font-size: 48px;
     color: red;
     line-height: 1.4;

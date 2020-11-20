@@ -33,3 +33,8 @@ code {
   font-family: 'HelveticaBold';
   src: local('Counterculture'), url(./fonts/Helvetica-Bold.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Arial-black';
+  src: local('Black'), url(./fonts/arial-black.ttf) format('truetype');
+}
