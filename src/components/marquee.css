@@ -1,0 +1,23 @@
+/* .Marquee{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    font-family: Adieu, sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    border-bottom: 2px solid white;
+    overflow: hidden
+}
+
+.Marquee-img{
+    width: 200vw;
+    min-width: 8330px;
+    height: 2rem;
+    background: url(/images/testmark@2x.png) 0 center repeat-x red;
+    background-size: auto 2rem;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-animation: Marquee-img 60s linear infinite;
+    animation: Marquee-img 60s linear infinite
+} */

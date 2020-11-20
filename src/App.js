@@ -12,6 +12,8 @@ import Line from './components/line';
 import Paragraph from './components/line';
 import Highlighter from './components/highlighter';
 import Label from './components/label';
+import Marquee from './components/marquee';
+
 import FaxButton from './faxbutton';
 
 
@@ -25,6 +27,7 @@ import SplitImage from "./split-img";
 import TripleImage from "./triple-img";
 
 import SignUp from "./signup";
+
 
 
 import Title from './components/title.js'
@@ -51,6 +54,7 @@ function App() {
     {/* <Divider></Divider> */}
     {/* <Title text = 'PRESS THIS BUTTON, FLOOD UNIVERSITY PRESIDENTS FROM 10 SCHOOLS WITH FAX MESSAGES'></Title> */}
     {/* <Title text = 'A PETITION TO MAKE OUR FINAL EXAMS COLLABORATIVE, BUT YOU SIGN IT BY FLOODING UNIVERSITY PRESIDENTS WITH FAX MESSAGES.'></Title> */}
+    <Marquee></Marquee>
     <Title text = 'DROP THE FAX:  PROTEST FULL TUITION IN ONLINE SCHOOL BY FLOODING EVERY UNIVERSITY PRESIDENT WITH FAX MESSAGES'></Title>
 
 
