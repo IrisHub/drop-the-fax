@@ -76,7 +76,7 @@ class Faxed extends Component{
           ></SmallImage> 
         
             <div className="Faxed-Container-CTA">
-                <div className = "Faxed-Text" >YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, MIT & EVERY IVY LEAGUE PRES. YOU'RE A COLLABORATION CHAMPION.</div>
+                <div className = "Faxed-Text" >YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, MIT & EVERY IVY LEAGUE PRES.</div>
                 <Highlighter text = "This is a protest by TEACH.  Drop your email if you want to see what we make next."></Highlighter>
                 {/* <a className="Button" href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> <ConfirmButton text = "DOWNLOAD TEACH + COLLAB"></ConfirmButton> </a>  */}
         

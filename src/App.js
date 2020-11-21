@@ -40,7 +40,7 @@ import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import Fade from 'react-reveal/Fade';
 import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 import flame from './images/redflame@2x.png';
-import button from './images/redbutton@2x.png';
+import button from './images/redbutton@3X.png';
 
 
 
