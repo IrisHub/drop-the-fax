@@ -32,7 +32,7 @@ padding-right: 10%;
 const CaseTitle = styled.div`
     font-weight: normal;
     font-family: Arial-black;
-    font-size: 48px;
+    font-size: 40px;
     color: red;
     line-height: 1.4;
     // font-weight: 600;
