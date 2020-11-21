@@ -1,6 +1,7 @@
 .Label{
-    font-family: Arial;
-    font-size: 36px;
+    font-family: Teight;
+    font-weight: normal;
+    font-size: 60px;
     text-align: center;  
 }
 
@@ -22,6 +23,11 @@
 
     .Icon{
         display: none;
+    }
+
+    .Label{
+        font-size: 36px;
+
     }
 
 }

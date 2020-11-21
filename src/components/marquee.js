@@ -45,7 +45,9 @@ const Header = styled.div`
 const MarqueeImg = styled.div`
     width: 200vw;
     min-width: 8330px;
-    height: 2rem;
+    // height: 2rem;
+    height: 30px;
+
     background: url(${marq}) 0 center repeat-x red;
     background-size: auto 2rem;
     -webkit-transform: translateX(0);

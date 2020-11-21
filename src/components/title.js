@@ -3,7 +3,9 @@ import styled, { css } from 'styled-components'
 
 const Wrapper = styled.div`
 
-padding: 4%;
+padding-top: 5%;
+padding-bottom: 3%;
+
 padding-left: 10%;
 padding-right: 10%;
 
