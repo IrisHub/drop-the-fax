@@ -12,7 +12,7 @@
 
 .SignUpButton{
     
-    background-color:#F83D7B;
+    background-color:black;
     outline:none;
     border: 0px;
     color: white;
@@ -84,6 +84,7 @@
     font-family: Teight;
     padding-top: 7px;
     padding-bottom: 7px;
+    text-align: left;
 }
 
 @media screen and (max-width: 700px){

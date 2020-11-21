@@ -13,9 +13,11 @@ padding-right: 10%;
 // border-width: 3px;
 
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 10%;
+
    }
 
    @media (max-width: 500px) {
@@ -33,6 +35,15 @@ const CaseTitle = styled.div`
     line-height: 1.4;
     // font-weight: 600;
     text-align: center;
+
+    @media (max-width: 1000px) {
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 10%;
+      font-size: 36px;
+  
+     }
+
       @media (max-width: 500px) {
       font-size: 24px;
       line-height: 1.4;

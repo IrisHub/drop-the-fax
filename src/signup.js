@@ -73,7 +73,7 @@ class SignUp extends Component{
                 </button>
             </form>
 
-            {this.state.emailIsValid ? 
+            {this.state.submitted ? 
                     <React.Fragment>
                     <div className = "AfterSubmit">All signed up!</div>
                       </React.Fragment>
