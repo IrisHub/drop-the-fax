@@ -38,3 +38,13 @@ code {
   font-family: 'Arial-black';
   src: local('Black'), url(./fonts/arial-black.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Arial';
+  src: local('Arial'), url(./fonts/ArialCE.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Arial-bold';
+  src: local('Arialbold'), url(./fonts/ArialCEBold.ttf) format('truetype');
+}

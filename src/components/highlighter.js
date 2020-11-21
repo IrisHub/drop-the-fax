@@ -3,13 +3,13 @@ import styled, { css } from 'styled-components';
 
 const CaseLine = styled.div`
     font-weight: normal;
-    font-family: Courier;
+    font-family: Arial-black;
     font-weight: 600;
     text-align: left;
     font-size: 24px;
     line-height: 40px;
     color: red;
-    background-color: rgba(255, 0, 0, 0.1);
+    // background-color: rgba(255, 0, 0, 0.1);
 
 
 

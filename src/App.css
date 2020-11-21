@@ -106,7 +106,7 @@
 }
 
 .Share-text{
-  font-family: Teight;
+  font-family: Arial;
   font-weight: 600;
   font-size: 36px;
   color: red;
@@ -153,7 +153,7 @@
 
 .Cta-footer{
   font-weight: 600;
-  font-family: Courier ;
+  font-family: Arial ;
   font-size: 18px;
   line-height: 40px;
   background-color: red;

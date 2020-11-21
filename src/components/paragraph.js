@@ -5,7 +5,7 @@ import '../index.css';
 
 const CaseParagraph = styled.div`
     font-weight: 500;
-    font-family: Helvetica;
+    font-family: Arial;
     font-size: 24px;
     line-height: 40px;
     text-align: left;
