@@ -103,6 +103,9 @@ function App() {
         <Highlighter text = "Q: IS THIS A SCAM?"></Highlighter>
         <Paragraph text = "A: NO."></Paragraph>
 
+        <Highlighter text = "Q: WHY THIS?"></Highlighter>
+        <Paragraph text = "A: EMAILS, PETITIONS AND PROTESTS GET IGNORED. IT’S HARD TO IGNORE A TSUNAMI OF PAPERS FLYING OUT OF A HOUSE-SIZED MACHINE THAT SOUNDS LIKE A JACKHAMMER."></Paragraph>
+
         <Highlighter text = "Q: WHO ARE U?"></Highlighter>
         
         <Paragraph text = "A: COLLEGE STUDENTS FROM CALIFORNIA. COVID TOOK AWAY 99% OF THE VALUE OF COLLEGE, BUT TOOK AWAY 0% OF THE PRICE."></Paragraph>
@@ -110,8 +113,7 @@ function App() {
         <Highlighter text = "Q: HAVE U EVEN SEEN A FAX MACHINE BEFORE?"></Highlighter>
         <Paragraph text = " A: ¯\_(ツ)_/¯  WE JUST KNOW THAT FAX MACHINES ARE OUTDATED AND ANNOYING, JUST LIKE YOUR CAMPUS TUITION POLICIES."></Paragraph>
 
-        <Highlighter text = "Q: WHY THIS?"></Highlighter>
-        <Paragraph text = "A: EMAILS, PETITIONS AND PROTESTS GET IGNORED. IT’S HARD TO IGNORE A TSUNAMI OF PAPERS FLYING OUT OF A HOUSE-SIZED MACHINE THAT SOUNDS LIKE A JACKHAMMER."></Paragraph>
+       
 
         {/* {/* <Paragraph text = "ADMINISTRATORS HAVEN'T LISTENED TO PETITIONS.  BUT FLOODING AN OFFICE WITH THOUSANDS OF FAXES?  THAT'S A STATEMENT.  JOIN US TO PROTEST FULL TUITION IN ONLINE SCHOOL THIS YEAR. "></Paragraph> */}
         <Divider></Divider>
