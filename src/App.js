@@ -57,7 +57,9 @@ function App() {
     {/* <Title text = 'PRESS THIS BUTTON, FLOOD UNIVERSITY PRESIDENTS FROM 10 SCHOOLS WITH FAX MESSAGES'></Title> */}
     {/* <Title text = 'A PETITION TO MAKE OUR FINAL EXAMS COLLABORATIVE, BUT YOU SIGN IT BY FLOODING UNIVERSITY PRESIDENTS WITH FAX MESSAGES.'></Title> */}
     <Marquee></Marquee>
-    <Title text = 'PROTEST FULL TUITION DURING COVID BY FLOODING UNIVERSITY PRESIDENTS WITH FAXES'></Title>
+    {/* <Title text = 'PROTEST FULL TUITION DURING COVID BY FLOODING UNIVERSITY PRESIDENTS WITH FAXES'></Title> */}
+    <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WACK.  FLOOD YOUR SCHOOL WITH FAXES TO PRANK THEM BACK!'></Title>
+
 
 
     
@@ -94,6 +96,7 @@ function App() {
       </div>
 
       <div className="Share-text">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES!</div>
+
 
       <Divider></Divider>
       <div className="Text-container"> 

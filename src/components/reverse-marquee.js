@@ -1,7 +1,7 @@
 import React, {Component} from 'react'; 
 import styled, { css } from 'styled-components';
 import '../components/marquee.css';
-import marq from '../images/marquee@3x.png';
+import marq from '../images/marqueerev@3x.png';
 import { keyframes } from 'styled-components'
 
 
