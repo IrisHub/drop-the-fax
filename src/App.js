@@ -18,10 +18,6 @@ import RevMarquee from './components/reverse-marquee';
 
 import FaxButton from './faxbutton';
 
-
-
-
-
 import Image from "./image";
 import SmallImage from "./small-img";
 
@@ -124,7 +120,7 @@ function App() {
       </div>
 
       <div className="Cta-footer">
-        <div className= "Footer-text"> This is a protest by TEACH, a group of upperclassmen from Stanford & Berkeley </div>
+        <div className= "Footer-text"> THIS IS A PROTEST BY TEACH, A GROUP OF UNDERCLASSMEN FROM STANFORD & BERKELEY </div>
         <div className="Signup-wrapper"> 
         {/* <SignUp></SignUp> */}
         </div>
