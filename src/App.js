@@ -99,8 +99,8 @@ function App() {
 
 
         <Title text = "FAQ"></Title>
-        <Highlighter text = "Q: IS THIS A SCAM?"></Highlighter>
-        <Paragraph text = "A: NO."></Paragraph>
+        <Highlighter text = "Q: DOES THIS REALLY SEND FAXES?"></Highlighter>
+        <Paragraph text = "A: YES.  PRESS FAX AND SEND TO 13 UNIVERSITY PRESIDENTS FROM STANFORD, CAL, UCLA, USC, MIT AND EVERY IVY."></Paragraph>
 
         <Highlighter text = "Q: WHY THIS?"></Highlighter>
         <Paragraph text = "A: EMAILS, PETITIONS AND PROTESTS GET IGNORED. IT’S HARD TO IGNORE A TSUNAMI OF PAPERS FLYING OUT OF A HOUSE-SIZED MACHINE THAT SOUNDS LIKE A JACKHAMMER."></Paragraph>
