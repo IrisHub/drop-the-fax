@@ -12,7 +12,7 @@
 
 .SignUpButton{
     
-    background-color:black;
+    background-color:#D60105;
     outline:none;
     border: 0px;
     color: white;
@@ -33,9 +33,9 @@
 
 .SignUpButton:hover{
     background-color: white;
-    color: #F83D7B;
+    color: #D60105;
     border-style: solid;
-    border-color:#F83D7B;
+    border-color:#D60105;
     border-width: 3px;
     cursor: pointer;
 
@@ -43,7 +43,9 @@
 
 
 .SignUpInput{
-    border: solid 4px #000000;
+    border: solid 4px #D60105;
+    color: #D60105;
+
     font-size: 36px;
     padding: 0.35em;
     padding-left: 1em;
@@ -63,7 +65,7 @@
 
 .SignUpText{
 
-    color: #686868;
+    color: #D60105;
     font-size: 16px;
     width: 45%;
     margin-bottom: 1em;

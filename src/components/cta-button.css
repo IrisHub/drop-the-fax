@@ -1,7 +1,7 @@
 .cta-button{
     height: 48px;
     line-height: 5.5vh;
-    background-color: red;
+    background-color: #D60105;
     outline:none;
     border: 0px;
     border-radius: 2px;
@@ -28,7 +28,7 @@
 
     color: black;
     outline-style: solid;
-    border-color: black;
+    border-color: #D60105;
     border-width: 3px;
     line-height: 5.5vh;
 }

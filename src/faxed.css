@@ -1,18 +1,23 @@
 .Faxed-Container{
     display: flex;
     flex-direction: column;
-    padding-left: 20%;
-    padding-right: 20%;
+
 
 
 
 }
 
-.Faxed-Container-CTA{
+.Faxed-hero{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.Faxed-container-text{
   
     padding-left: 20%;
     padding-right: 20%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    border-top: 3px solid red;
 
 
 }
@@ -28,13 +33,23 @@
   
 }
 
+.Faxed-share{
+    font-family: Teight;
+    font-weight: normal;
+    font-size: 48px;
+    color: #D60105;
+    text-align: center;
+   
+  
+}
+
 .Back{
     /* margin-left: 46%; */
     /* margin-right: 45%; */
     font-weight: 800;
     font-family: Courier;
     font-size: 18px;
-    color: red;
+    color: #D60105;
 }
 
 /* .Print{
@@ -45,7 +60,12 @@
 
 @media (max-width: 550px) {
 
-    .Faxed-Container-CTA{
+    .Faxed-hero{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .Faxed-container-text{
   
         padding-left: 0%;
         padding-right: 0%;

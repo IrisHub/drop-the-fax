@@ -19,6 +19,9 @@ import Footer from './components/footer';
 import Line from './components/line';
 import Paragraph from './components/line';
 import Highlighter from './components/highlighter';
+import Colleges from './components/colleges';
+import Marquee from './components/marquee';
+import RevMarquee from './components/reverse-marquee';
 
 import SmallImage from "./small-img";
 import SplitImage from "./split-img";
@@ -68,16 +71,27 @@ class Faxed extends Component{
         console.log(this.state.new_count)
         return (
             <div className="Faxed-Container"> 
+            <div className = "Faxed-hero"> 
+                {/* <Title text = "YOU JUST SENT 10 FAXES TO 10 UNIVERSITY PRESIDENTS!"></Title> */}
+                <Marquee></Marquee>
+                <Divider></Divider>
+                <Colleges></Colleges>
+            
+                <SmallImage className = "Print"
+                image = "./images/thefax@2X.png"
+            ></SmallImage> 
+                
+                <div className="Faxed-share">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES!</div>
+                </div>
+                <Divider></Divider>
 
-            <Title text = "YOU JUST SENT 10 FAXES TO 10 UNIVERSITY PRESIDENTS!"></Title>
-        
-            <SmallImage className = "Print"
-            image = "./images/print@2x.gif"
-          ></SmallImage> 
-        
-            <div className="Faxed-Container-CTA">
-                <div className = "Faxed-Text" >YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, MIT & EVERY IVY LEAGUE PRES.</div>
-                <Highlighter text = "This is a protest by TEACH.  Drop your email if you want to see what we make next."></Highlighter>
+            <div className="Faxed-container-text">
+
+                {/* <div className = "Faxed-Text" >YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, MIT & EVERY IVY LEAGUE PRES.</div> */}
+                <Divider></Divider>
+
+                <Highlighter text = "WHAT'S NEXT? "></Highlighter>
+                <Line text = "WE’RE TEACH: A GROUP OF COLLEGE STUDENTS WHO DROP FUN STUFF LIKE THIS.  DROP YOUR EMAIL TO HEAR ABOUT THE NEXT ONE FIRST. "></Line>
                 {/* <a className="Button" href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> <ConfirmButton text = "DOWNLOAD TEACH + COLLAB"></ConfirmButton> </a>  */}
         
                 {/* <ConfirmButton text = "COLLAB ON TEACH"></ConfirmButton> */}
@@ -85,7 +99,8 @@ class Faxed extends Component{
                 <Link to='/' className="Back">FAX AGAIN?</Link>
                 <Divider></Divider>
             </div>
-            
+
+            <RevMarquee></RevMarquee>
           </div>
          
         );

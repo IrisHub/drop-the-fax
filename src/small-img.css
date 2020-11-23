@@ -1,10 +1,10 @@
 .small-img{
-    width: 20%;
-    padding-left: 39.5%;
+    width: 60%;
+    padding-left: 33.5%;
     padding-right: 39.5%;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
-    border: 4px solid red;
+    /* border: 4px solid red; */
     border-top: none;
     border-bottom: none;
 
@@ -16,8 +16,8 @@
     
     .small-img{
         width: 83%;
-        padding-right: 7vw;
-        padding-left: 7vw;
+        padding-right: 20%;
+        padding-left: 17%;
 
 
 

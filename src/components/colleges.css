@@ -1,0 +1,39 @@
+.College, .Done {
+    font-family: Arial-black;
+    font-weight: 600px;
+    font-size: 40px;
+    color: #D60105;
+    text-align: center;
+    
+}
+
+.College-container{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+
+@media (max-width: 550px) {
+
+    .College, .Done{
+  
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 24px;
+    
+    }
+
+    .Faxed-share{
+        font-size: 36px;
+
+    }
+
+    .College-container{
+  
+        padding-left: 0%;
+        padding-right: 0%;
+    
+    }
+
+}
