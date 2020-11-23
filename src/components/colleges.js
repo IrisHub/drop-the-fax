@@ -14,7 +14,11 @@ const Colleges = () => {
 //
 
     useEffect(() => {
-        var array = ['STANFORD','USC','YALE','BROWN','UCLA','BERKELEY','CORNELL','MIT','PENN','HARVARD','PRINCETON','DARTMOUTH'];
+        var array = ['CHANCELLOR OF CAL CAROL CHRIST', 'PRES OF STANFORD MARC TESSIER-LAVIGNE', 'CHANCELOR OF UCLA GENE BLOCK', 'PRES. OF PRINCETON CHRISTINA PAXSON', 'PRES. OF HARVARD LAWRENCE BACOW','CAROL FOLT PRES. OF USC','PRES. OF YALE PETER SALOVEY', 'PRES. OF PENN AMY GUTMANN','PRES. OF CORNELL MARTHA POLLACK', 'PRES. OF DARTMOUTH PHILIP HANLON','PRES. OF COLUMBIA LEE BOLINGER']
+
+            
+            
+        // var array = ['STANFORD','USC','YALE','BROWN','UCLA','BERKELEY','CORNELL','MIT','PENN','HARVARD','PRINCETON','DARTMOUTH'];
         const interval = setInterval(() => {
         setColleges(colleges => array.pop());
     
