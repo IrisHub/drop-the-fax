@@ -56,7 +56,10 @@ const Colleges = () => {
         }
 
         {timer< 13 &&
-            <div className="College">CURRENTLY FAXING:  {colleges} </div>
+            <React.Fragment> 
+                <div className="College">CURRENTLY FAXING: </div>
+                <div className="College"> {colleges} </div>
+            </React.Fragment>
 
         }
         
