@@ -48,7 +48,7 @@ const MarqueeImg = styled.div`
     // height: 2rem;
     height: 30px;
 
-    background: url(${marq}) 0 center repeat-x red;
+    background: url(${marq}) 0 center repeat-x #D60105;;
     background-size: auto 2rem;
     -webkit-transform: translateX(0);
     transform: translateX(0);
