@@ -9,9 +9,24 @@
     
 }
 
+.Confirm{
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 24px;
+    color: #D60105;
+    text-align: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
+
+
+}
+
 .College-container{
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 5%;
+    /* padding-bottom: 5%; */
+
 
 }
 
@@ -36,6 +51,14 @@
         padding-left: 0%;
         padding-right: 0%;
     
+    }
+
+    .Confirm{
+        font-size: 18px;
+        line-height: 20px;
+        text-align: left;
+
+
     }
 
 }

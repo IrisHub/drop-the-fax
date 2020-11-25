@@ -51,7 +51,9 @@ class Faxed extends Component{
     constructor(props){
         super(props);
             this.state = {
-                new_count: false
+                new_count: false,
+                date: '',
+                time: ''
             };
         }
   
@@ -60,7 +62,12 @@ class Faxed extends Component{
         // axios.post('https://s27ryscmt6.execute-api.us-west-1.amazonaws.com/staging')
         axios.post('https://l2wmf923e0.execute-api.us-west-1.amazonaws.com/fns/fax')
         .then((success) => {
-            this.setState({new_count: success.data })
+            this.setState({new_count: success.data.count })
+            this.setState({date: success.data.date})
+            this.setState({time: success.data.time})
+
+
+            console.log(this.state.new_count)
             // this.props.currView.setState({ curr: "User: " + success.data.first_name + " " + success.data.last_name });
             }, function (err) {
             console.log("err"+err); //prints ‘failure reason’ if rejected’
@@ -74,8 +81,11 @@ class Faxed extends Component{
             <div className = "Faxed-hero"> 
                 {/* <Title text = "YOU JUST SENT 10 FAXES TO 10 UNIVERSITY PRESIDENTS!"></Title> */}
                 <Marquee></Marquee>
-                <Divider></Divider>
-                <Colleges></Colleges>
+                <Colleges
+                count = {this.state.new_count}
+                date = {this.state.date}
+                time = {this.state.time}
+                ></Colleges>
             
                 <SmallImage className = "Print"
                 image = "./images/thefax@2X.png"

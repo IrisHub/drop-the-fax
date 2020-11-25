@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../components/colleges.css';
 
 
-const Colleges = () => {
+const Colleges = ({date,count,time}) => {
 //   const [colleges, setColleges] = useState(['STANFORD','USC','YALE','BROWN','UCLA','BERKELEY','CORNELL','MIT','PENN','HARVARD','PRINCETON','DARTMOUTH']);
   const [colleges, setColleges] = useState([]);
 
@@ -52,7 +52,15 @@ const Colleges = () => {
   return (
     <div className="College-container">
         {timer>13 &&
-            <div className="Done"> ALL 13 FAXES SENT! </div>
+          <React.Fragment> 
+              <div className="Done"> 13 SCHOOLS FAXED! </div>
+              <div className="Confirm"> TOTAL FAXES SENT: {count} </div>
+              <div className="Confirm"> DATE: {date} </div>
+              <div className="Confirm"> TIME: {time} </div>
+              {/* <div className="Confirm"> SENT TO: STANFORD, UC BERKELEY, UCLA, USC, HARVARD, MIT, YALE, PRINCETON, DARTMOUTH, BROWN, CORNELL, COLUMBIA, PENN </div> */}
+
+          </React.Fragment>
+
         }
 
         {timer< 13 &&
