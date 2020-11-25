@@ -57,7 +57,7 @@ const Colleges = ({date,count,time}) => {
               <div className= "Confirm"> 
                 <div className="Confirm-text"> TIME: {time} </div>
                 <div className="Confirm-text"> DATE: {date} </div>
-                <div className="Confirm-text"> UPDATED FAX TOTAL: {count} </div>
+                {/* <div className="Confirm-text"> UPDATED FAX TOTAL: {count} </div> */}
                 <div className="Confirm-text"> STATUS: SENDING BETWEEN 10PM - 4AM VIA FAX.PLUS </div>
                 <div className="Confirm-text"> SENT TO: STANFORD, BERKELEY, UCLA, USC, MIT & EVERY IVY </div>
               </div> 
