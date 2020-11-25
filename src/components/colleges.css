@@ -12,11 +12,12 @@
 .Confirm{
     font-family: Arial;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
     color: #D60105;
-    text-align: center;
+    text-align: left;
     margin-left: 7vw;
     margin-right: 7vw;
+    line-height: 20px;
 
 
 }

@@ -53,10 +53,15 @@ const Colleges = ({date,count,time}) => {
     <div className="College-container">
         {timer>13 &&
           <React.Fragment> 
-              <div className="Done"> 13 SCHOOLS FAXED! </div>
-              <div className="Confirm"> TOTAL FAXES SENT: {count} </div>
-              <div className="Confirm"> DATE: {date} </div>
-              <div className="Confirm"> TIME: {time} </div>
+              <div className="Done"> FAX CONFIRMATION </div>
+              <div className= "Confirm"> 
+                <div className="Confirm-text"> TIME: {time} </div>
+                <div className="Confirm-text"> DATE: {date} </div>
+                <div className="Confirm-text"> UPDATED FAX TOTAL: {count} </div>
+                <div className="Confirm-text"> STATUS: SENDING BETWEEN 10PM - 4AM VIA FAX.PLUS </div>
+                <div className="Confirm-text"> SENT TO: STANFORD, BERKELEY, UCLA, USC, MIT & EVERY IVY </div>
+              </div> 
+
               {/* <div className="Confirm"> SENT TO: STANFORD, UC BERKELEY, UCLA, USC, HARVARD, MIT, YALE, PRINCETON, DARTMOUTH, BROWN, CORNELL, COLUMBIA, PENN </div> */}
 
           </React.Fragment>
@@ -65,7 +70,7 @@ const Colleges = ({date,count,time}) => {
 
         {timer< 13 &&
             <React.Fragment> 
-                <div className="College">CURRENTLY FAXING: </div>
+                <div className="College"> PREPARING FAX FOR: </div>
                 <div className="College"> {colleges} </div>
             </React.Fragment>
 
