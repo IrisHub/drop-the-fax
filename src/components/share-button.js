@@ -1,5 +1,7 @@
 import React, {Component} from 'react'; 
 // import ConfirmButton from '../components/confirmButton';
+import './share-button.css';
+import share from '../images/share.svg';
 
 
 class ShareButton extends Component{
@@ -13,6 +15,7 @@ class ShareButton extends Component{
 
             };
         }
+          
 
    
          handleOnClick = () => {
@@ -36,9 +39,9 @@ class ShareButton extends Component{
     render() {
         const {name} = this.state
         return (
-            <div className = "SignUpContainer"> 
+            <div className = "Button-Container"> 
     
-                <div onClick={this.handleOnClick}> JOIN UP </div>
+                <div onClick={this.handleOnClick} className="SignUpButton"> <img src={share}></img> SHARE </div>
 
             </div>
         );

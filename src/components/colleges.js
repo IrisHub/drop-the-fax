@@ -9,6 +9,8 @@ import clock from '../images/time.svg';
 
 import status from '../images/status.svg';
 import SmallImage from "../small-img";
+import ShareButton from './share-button';
+
 
 
 
@@ -86,6 +88,9 @@ const Colleges = ({date,count,time}) => {
                 
                 <div className="Faxed-share">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES!</div>
 
+                {timer>12 &&
+                <ShareButton></ShareButton>
+                }       
               </div> 
 
               {/* <div className="Confirm"> SENT TO: STANFORD, UC BERKELEY, UCLA, USC, HARVARD, MIT, YALE, PRINCETON, DARTMOUTH, BROWN, CORNELL, COLUMBIA, PENN </div> */}
