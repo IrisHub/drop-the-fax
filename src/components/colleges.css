@@ -28,7 +28,32 @@
     text-align: left;
     margin-left: 7vw;
     margin-right: 7vw;
-    line-height: 30px;
+    line-height: 35px;
+
+
+}
+
+.Confirm-1{
+    padding-bottom: 3%;
+    padding-top: 3%;
+
+    border-style: solid;
+    border-color: #D60105;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.Confirm-2{
+    border-style: solid;
+    border-color: #D60105;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+
 
 
 }
@@ -44,7 +69,7 @@
 
 
 .Loading-container{
-    
+
 }
 
 @media (max-width: 550px) {
@@ -71,8 +96,8 @@
     }
 
     .Confirm{
-        font-size: 18px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 30px;
         text-align: left;
 
 
