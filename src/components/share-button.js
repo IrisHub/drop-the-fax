@@ -23,7 +23,7 @@ class ShareButton extends Component{
               navigator
                 .share({
                   title: 'DROP THE FAX',
-                  text: `FAX FAX`,
+                  text: `DROP THE FAX`,
                   url: 'https://dropthefax.com/',
                 })
                 .then(() => {

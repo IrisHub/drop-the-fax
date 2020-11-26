@@ -57,9 +57,6 @@ function App() {
     <Marquee></Marquee>
     {/* <Title text = 'PROTEST FULL TUITION DURING COVID BY FLOODING UNIVERSITY PRESIDENTS WITH FAXES'></Title> */}
     <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WACK.  FLOOD YOUR SCHOOL WITH FAXES TO PRANK THEM BACK!'></Title>
-    <ShareButton></ShareButton>
-
-
 
     
     <div className="Main-container"> 
