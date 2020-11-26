@@ -44,7 +44,7 @@ class Label extends Component{
         return (
             <div className="Fax-container"> 
                 {/* <img src={flame} className = 'Icon'></img> */}
-                <div className = "Label">{this.state.count} FAXES SENT</div>
+                <div className = "Label">{this.state.count} / 1,000,000 FAXES SENT!</div>
             </div>
           
           
