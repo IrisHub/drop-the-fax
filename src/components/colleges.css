@@ -9,6 +9,17 @@
     
 }
 
+.College-text {
+    font-family: Teight;
+    font-weight: 600px;
+    font-size: 48px;
+    color: #D60105;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+
 .Confirm{
     font-family: Arial;
     font-weight: 600;
@@ -17,7 +28,7 @@
     text-align: left;
     margin-left: 7vw;
     margin-right: 7vw;
-    line-height: 20px;
+    line-height: 30px;
 
 
 }
@@ -31,6 +42,10 @@
 
 }
 
+
+.Loading-container{
+    
+}
 
 @media (max-width: 550px) {
 

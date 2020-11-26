@@ -1,0 +1,19 @@
+.Animation-container{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    padding-left: 35%;
+    padding-right: 35%;
+
+
+}
+
+@media screen and (max-width: 1000px){
+
+  .Animation-container{
+      height: 200px;
+      width: 200px;
+      padding-left: 25%;
+      padding-right: 25%;
+  }
+}

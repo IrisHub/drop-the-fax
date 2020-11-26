@@ -87,28 +87,10 @@ class Faxed extends Component{
                 time = {this.state.time}
                 ></Colleges>
             
-                <SmallImage className = "Print"
-                image = "./images/thefax@2X.png"
-            ></SmallImage> 
-                
-                <div className="Faxed-share">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES!</div>
-                </div>
-                <Divider></Divider>
-
-            <div className="Faxed-container-text">
-
-                {/* <div className = "Faxed-Text" >YOU JUST FAXED THE OFFICE OF THE PRESIDENT AT STANFORD, BERKELEY, MIT & EVERY IVY LEAGUE PRES.</div> */}
-                <Divider></Divider>
-
-                <Highlighter text = "WHAT'S NEXT? "></Highlighter>
-                <Line text = "WE’RE TEACH: A GROUP OF COLLEGE STUDENTS WHO DROP FUN STUFF LIKE THIS.  DROP YOUR EMAIL TO HEAR ABOUT THE NEXT ONE FIRST. "></Line>
-                {/* <a className="Button" href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> <ConfirmButton text = "DOWNLOAD TEACH + COLLAB"></ConfirmButton> </a>  */}
-        
-                {/* <ConfirmButton text = "COLLAB ON TEACH"></ConfirmButton> */}
-                <SignUp></SignUp>
-                <Link to='/' className="Back">FAX AGAIN?</Link>
+            
                 <Divider></Divider>
             </div>
+        
 
             <RevMarquee></RevMarquee>
           </div>
