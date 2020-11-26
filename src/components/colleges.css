@@ -34,6 +34,8 @@
 }
 
 .Confirm-1{
+    display: flex;
+    flex-direction: row;
     padding-bottom: 3%;
     padding-top: 3%;
 
@@ -45,6 +47,8 @@
     border-bottom: none;
 }
 .Confirm-2{
+    /* display: flex; */
+    /* flex-direction: row; */
     border-style: solid;
     border-color: #D60105;
     border-width: 2px;
