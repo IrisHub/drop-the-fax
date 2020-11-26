@@ -32,7 +32,7 @@
     margin-bottom: 1.5em;
   
 }
-
+/* 
 .Faxed-share{
     font-family: Teight;
     font-weight: normal;
@@ -41,7 +41,7 @@
     text-align: center;
    
   
-}
+} */
 
 .Back{
     /* margin-left: 46%; */
@@ -93,10 +93,11 @@
         padding-right: 7vw; */
     }
 
-    .Faxed-share{
+    /* .Faxed-share{
+        display: none;
         padding-left: 7vw;
         padding-right: 7vw;
-    }
+    } */
     
  
   }
