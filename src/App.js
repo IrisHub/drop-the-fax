@@ -94,7 +94,6 @@ function App() {
       <div className="Share-text">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES!</div>
 
 
-      <Divider></Divider>
       <div className="Text-container"> 
 
 
