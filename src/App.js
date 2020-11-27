@@ -9,7 +9,7 @@ import MyNavbar from './components/nav.js';
 import Divider from './components/divider.js';
 import Footer from './components/footer';
 import Line from './components/line';
-import Paragraph from './components/line';
+import Paragraph from './components/paragraph';
 import Highlighter from './components/highlighter';
 import Label from './components/label';
 import Marquee from './components/marquee';
@@ -56,8 +56,11 @@ function App() {
     {/* <Title text = 'A PETITION TO MAKE OUR FINAL EXAMS COLLABORATIVE, BUT YOU SIGN IT BY FLOODING UNIVERSITY PRESIDENTS WITH FAX MESSAGES.'></Title> */}
     <Marquee></Marquee>
     {/* <Title text = 'PROTEST FULL TUITION DURING COVID BY FLOODING UNIVERSITY PRESIDENTS WITH FAXES'></Title> */}
-    <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WACK.  FLOOD YOUR SCHOOL WITH FAXES TO PRANK THEM BACK!'></Title>
 
+    <div className="Hero-container"> 
+      <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WACK!'></Title>
+      <Subtitle text = "We’re a few students who literally built a tool to fax every university president until they lower our tuition."></Subtitle>
+    </div>
     
     <div className="Main-container"> 
 
@@ -68,9 +71,7 @@ function App() {
       </div>
 
       <div className="Middle"> 
-        <div className="LabelTop"> 
-        <Label></Label>
-        </div>
+       
         <Link to= "/fax" className="Button"> 
           <img className = "Button-img" src = {button} />
         </Link>
@@ -91,28 +92,32 @@ function App() {
 
       </div>
 
+      <div className="LabelTop"> 
+        <Label></Label>
+        </div>
+
       {/* <div className="Share-text">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES!</div> */}
 
-      <Divider></Divider>
+      {/* <Divider></Divider> */}
       <div className="Text-container"> 
 
 
         <Title text = "FAQ"></Title>
         <Highlighter text = "Q: DOES THIS REALLY SEND FAXES?"></Highlighter>
-        <Paragraph text = "A: YES.  PRESS FAX AND SEND TO 13 UNIVERSITY PRESIDENTS FROM STANFORD, CAL, UCLA, USC, MIT AND EVERY IVY."></Paragraph>
+        <Paragraph text = "A: Yes. press fax and send to 13 university presidents from Stanford, Cal, UCLA, USC, MIT and every Ivy."></Paragraph>
 
         <Highlighter text = "Q: WHY THIS?"></Highlighter>
-        <Paragraph text = "A: EMAILS, PETITIONS AND PROTESTS GET IGNORED. IT’S HARD TO IGNORE A TSUNAMI OF PAPERS FLYING OUT OF A HOUSE-SIZED MACHINE THAT SOUNDS LIKE A JACKHAMMER."></Paragraph>
+        <Paragraph text = "A: Emails, petitions and protests get ignored. it’s hard to ignore a tsunami of papers flying out of a house-sized machine that sounds like a jackhammer."></Paragraph>
 
         <Highlighter text = "Q: WHO ARE U?"></Highlighter>
         
-        <Paragraph text = "A: COLLEGE STUDENTS FROM CALIFORNIA. COVID TOOK AWAY 99% OF THE VALUE OF COLLEGE, BUT TOOK AWAY 0% OF THE PRICE."></Paragraph>
+        <Paragraph text = "A: College students from California. COVID took away 99% of the value of college, but took away 0% of the price."></Paragraph>
 
         <Highlighter text = "Q: HAVE U EVEN SEEN A FAX MACHINE BEFORE?"></Highlighter>
-        <Paragraph text = " A: ¯\_(ツ)_/¯  WE JUST KNOW THAT FAX MACHINES ARE OUTDATED AND ANNOYING, JUST LIKE YOUR CAMPUS TUITION POLICIES."></Paragraph>
+        <Paragraph text = " A: ¯\_(ツ)_/¯  We just know that fax machines are outdated and annoying, just like our campus tuition policies."></Paragraph>
 
         <Highlighter text = "Q: WHAT ABOUT THE TREES???"></Highlighter>
-        <Paragraph text = " A: WE'RE NOT HERE TO DESTROY THE ENVIRONMENT. WE'RE PERSONALLY DONATING TO ONETREEPLANTED.ORG TO OFFSET THE PAPERS WE'RE PRINTING."></Paragraph>
+        <Paragraph text = " A: We're not here to destroy the environment. We're personally donating to onetreeplanted.org to offset the papers we're printing."></Paragraph>
 
        
 

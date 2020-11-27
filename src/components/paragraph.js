@@ -4,9 +4,9 @@ import '../index.css';
 
 
 const CaseParagraph = styled.div`
-    font-weight: 500;
-    font-family: Arial;
-    font-size: 18px;
+    // font-weight: 500;
+    font-family: Teight;
+    font-size: 36px;
     line-height: 40px;
     text-align: left;
     margin-top: 1em;
@@ -22,8 +22,8 @@ const CaseParagraph = styled.div`
       }
 
       @media (max-width: 500px) {
-      font-size: 18px;
-      line-height: 1.8;
+      font-size: 24px;
+      line-height: 1.2;
          
        }
 

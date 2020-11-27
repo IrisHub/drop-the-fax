@@ -1,16 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import '../components/colleges.css';
+import '../faxed.css';
+
 import Loading from '../components/loading.js';
 
 import mail from '../images/mail.svg';
 import cal from '../images/cal.svg';
 import clock from '../images/time.svg';
+import SignUp from "../signup";
+import Divider from './divider.js';
 
 
 import status from '../images/status.svg';
 import SmallImage from "../small-img";
 import ShareButton from './share-button';
-
+import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
+import Line from './line';
+import Highlighter from './highlighter';
 
 
 
@@ -66,7 +72,7 @@ const Colleges = ({date,count,time}) => {
     <div className="College-container">
 
         {timer>12 &&
-          <React.Fragment> 
+          <div className="Confirm-container"> 
             <div className="Done"> FAX CONFIRMATION </div>
               <div className= "Confirm"> 
               <div className="Confirm-1"> 
@@ -91,12 +97,25 @@ const Colleges = ({date,count,time}) => {
                 {timer>12 &&
                 <ShareButton></ShareButton>
                 }       
+
+              
               </div> 
+              <div className="Faxed-container-text"> 
 
-              {/* <div className="Confirm"> SENT TO: STANFORD, UC BERKELEY, UCLA, USC, HARVARD, MIT, YALE, PRINCETON, DARTMOUTH, BROWN, CORNELL, COLUMBIA, PENN </div> */}
+                <Divider></Divider>
 
-          </React.Fragment>
+                <Highlighter text = "WHAT’S NEXT?" ></Highlighter>
+                <Line text = "WE’RE TEACH: A GROUP OF COLLEGE STUDENTS WHO DROP FUN STUFF LIKE THIS.  DROP YOUR EMAIL TO HEAR ABOUT THE NEXT ONE FIRST." ></Line>
 
+                {/* <ConfirmButton text = “COLLAB ON TEACH”></ConfirmButton> */}
+                <SignUp></SignUp>
+                <Link to='/' className='Back'>FAX AGAIN?</Link>
+                <Divider></Divider>
+                </div>
+
+
+
+              </div> 
         }
 
         {timer< 12 &&

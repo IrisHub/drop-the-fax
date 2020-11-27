@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import styled, { css } from 'styled-components'
 
 const Wrapper = styled.div`
-margin-left: 20%;
-margin-right: 20%;
-margin-top: 1.5em;
+// margin-left: 20%;
+// margin-right: 20%;
+// margin-top: 1.5em;
 margin-bottom: 2em;
 
 @media (max-width: 800px) {
@@ -14,21 +14,22 @@ margin-bottom: 2em;
 
    @media (max-width: 500px) {
     font-size: 24px;
-    line-height: 1.8;
+    line-height: 1;
        
      }
 `;
 
 const CaseTitle = styled.div`
     font-weight: normal;
-    font-family: Helvetica;
-    font-size: 36px;
-    line-height: 1.4;
+    font-family: Teight;
+    font-size: 48px;
+    line-height: 1;
     font-weight: 500;
+    color: #D60105;
     text-align: center;
       @media (max-width: 500px) {
-      font-size: 18px;
-      line-height: 1.8;
+      font-size: 24px;
+      line-height: 1.2;
          
        }
 

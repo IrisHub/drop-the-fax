@@ -3,11 +3,11 @@ import styled, { css } from 'styled-components'
 
 const Wrapper = styled.div`
 
-padding-top: 4%;
-padding-bottom: 3%;
+// padding-top: 4%;
+// padding-bottom: 3%;
 
-padding-left: 10%;
-padding-right: 10%;
+// padding-left: 10%;
+// padding-right: 10%;
 
 // margin-bottom: 1.5em;
 // border-style: solid;
@@ -31,8 +31,10 @@ padding-right: 10%;
 
 const CaseTitle = styled.div`
     font-weight: normal;
-    font-family: Arial-black;
-    font-size: 40px;
+    // font-family: Arial-black;
+    font-family: Milli-extra;
+    font-size: 60px;
+    letter-spacing: 4%;
     color: #D60105;
     line-height: 1.4;
     // font-weight: 600;
@@ -42,12 +44,12 @@ const CaseTitle = styled.div`
       padding-left: 0;
       padding-right: 0;
       padding-top: 10%;
-      font-size: 36px;
+      font-size: 48px;
   
      }
 
       @media (max-width: 500px) {
-      font-size: 24px;
+      font-size: 36px;
       line-height: 1.4;
       padding: 5%;
          

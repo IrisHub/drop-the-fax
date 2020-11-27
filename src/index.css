@@ -48,3 +48,18 @@ code {
   font-family: 'Arial-bold';
   src: local('Arialbold'), url(./fonts/ArialCEBold.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Milli-bold';
+  src: local('Milli-bold'), url(./fonts/Millimetre-Bold_web.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Milli-reg';
+  src: local('Milli-reg'), url(./fonts/Millimetre-Regular_web.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Milli-extra';
+  src: local('Milli-extra'), url(./fonts/Millimetre-Extrablack_web.ttf) format('truetype');
+}

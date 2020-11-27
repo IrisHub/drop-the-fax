@@ -46,10 +46,10 @@ const MarqueeImg = styled.div`
     width: 200vw;
     min-width: 8330px;
     // height: 2rem;
-    height: 30px;
+    height: 20px;
 
     background: url(${marq}) 0 center repeat-x #D60105;;
-    background-size: auto 2rem;
+    background-size: auto 1.5rem;
     -webkit-transform: translateX(0);
     transform: translateX(0);
     -webkit-animation: ${MarqueeAnimation} 60s linear infinite;
