@@ -1,5 +1,5 @@
 .College, .Done {
-    font-family: Arial-black;
+    font-family: Milli-extra;
     font-weight: 600px;
     font-size: 40px;
     color: #D60105;
@@ -21,9 +21,9 @@
 }
 
 .Confirm{
-    font-family: Arial;
-    font-weight: 600;
-    font-size: 18px;
+    font-family: Teight;
+    /* font-weight: 600; */
+    font-size: 28px;
     color: #D60105;
     text-align: left;
     margin-left: 7vw;
@@ -116,7 +116,7 @@
     }
 
     .Confirm{
-        font-size: 16px;
+        font-size: 28px;
         line-height: 30px;
         text-align: left;
 
