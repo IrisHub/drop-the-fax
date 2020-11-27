@@ -5,7 +5,6 @@ const Wrapper = styled.div`
 // margin-left: 20%;
 // margin-right: 20%;
 // margin-top: 1.5em;
-margin-bottom: 2em;
 
 @media (max-width: 800px) {
     margin-left: 7vw;
@@ -13,7 +12,7 @@ margin-bottom: 2em;
    }
 
    @media (max-width: 500px) {
-    font-size: 24px;
+    font-size: 36px;
     line-height: 1;
        
      }
@@ -27,8 +26,8 @@ const CaseTitle = styled.div`
     font-weight: 500;
     color: #D60105;
     text-align: center;
-      @media (max-width: 500px) {
-      font-size: 24px;
+      @media (max-width: 550px) {
+      font-size: 28px;
       line-height: 1.2;
          
        }

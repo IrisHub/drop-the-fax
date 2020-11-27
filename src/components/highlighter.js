@@ -23,7 +23,7 @@ const CaseLine = styled.div`
       }
 
       @media (max-width: 500px) {
-      font-size: 18px;
+      font-size: 24px;
       line-height: 1.8;
          
        }
