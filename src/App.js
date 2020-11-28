@@ -58,8 +58,8 @@ function App() {
     {/* <Title text = 'PROTEST FULL TUITION DURING COVID BY FLOODING UNIVERSITY PRESIDENTS WITH FAXES'></Title> */}
 
     <div className="Hero-container"> 
-      <Title text = 'WHAT’S MORE OUTDATED THAN A FAX? YOUR SCHOOL’S TUITION.'></Title>
-      <Subtitle text = "Our universities are increasing or refusing to lower tuition during COVID. Emails get blocked. Petitions get ignored.  But a challenge to flood university presidents with 1,000,000 faxes? That demands attention."></Subtitle>
+      <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WRONG.'></Title>
+      <Subtitle text = 'Schools are charging us more during COVID and giving us worse education. Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle>
     </div>
     
     <div className="Main-container"> 
@@ -113,8 +113,8 @@ function App() {
         
         <Paragraph text = "A: College students from California. COVID took away 99% of the value of college, but took away 0% of the price."></Paragraph>
 
-        <Highlighter text = "Q: HAVE U EVEN SEEN A FAX MACHINE BEFORE?"></Highlighter>
-        <Paragraph text = " A: ¯\_(ツ)_/¯  We just know that fax machines are outdated and annoying, just like our campus tuition policies."></Paragraph>
+        <Highlighter text = "Q: *UNIVERSITY PRESIDENT UNPLUGS FAX MACHINE* "></Highlighter>
+        <Paragraph text = " A: We don't care about admin reading each message.  It's about the collective statement we make as students coming together to send 1,000,000 faxes against tuition.  Plus, faxes are all online now, so unplug away. :) "></Paragraph>
 
         <Highlighter text = "Q: WHAT ABOUT THE TREES???"></Highlighter>
         <Paragraph text = " A: We're not here to destroy the environment. We're personally donating to onetreeplanted.org to offset the papers we're printing."></Paragraph>
