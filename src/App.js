@@ -58,8 +58,8 @@ function App() {
     {/* <Title text = 'PROTEST FULL TUITION DURING COVID BY FLOODING UNIVERSITY PRESIDENTS WITH FAXES'></Title> */}
 
     <div className="Hero-container"> 
-      <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WACK!'></Title>
-      <Subtitle text = "We’re a few students who literally built a tool to fax every university president until they lower our tuition."></Subtitle>
+      <Title text = 'WHAT’S MORE OUTDATED THAN A FAX? YOUR SCHOOL’S TUITION.'></Title>
+      <Subtitle text = "Our universities are increasing or refusing to lower tuition during COVID. Emails get blocked. Petitions get ignored.  But a challenge to flood university presidents with 1,000,000 faxes? That demands attention."></Subtitle>
     </div>
     
     <div className="Main-container"> 
