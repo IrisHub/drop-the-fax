@@ -20,9 +20,8 @@ const Wrapper = styled.div`
 
 const CaseTitle = styled.div`
     font-weight: normal;
-    font-family: Teight;
-    font-size: 48px;
-    line-height: 1;
+    font-family: M5;
+    font-size: 36px;
     font-weight: 500;
     color: #D60105;
     text-align: center;

@@ -107,7 +107,7 @@ function App() {
         <Paragraph text = "A: Yes. press fax and send to 13 university presidents from Stanford, Cal, UCLA, USC, MIT and every Ivy."></Paragraph>
 
         <Highlighter text = "Q: WHY THIS?"></Highlighter>
-        <Paragraph text = "A: Emails, petitions and protests get ignored. it’s hard to ignore a tsunami of papers flying out of a house-sized machine that sounds like a jackhammer."></Paragraph>
+        <Paragraph text = "A: Emails, petitions and protests get ignored. it is hard to ignore a tsunami of papers flying out of a house-sized machine that sounds like a jackhammer."></Paragraph>
 
         <Highlighter text = "Q: WHO ARE U?"></Highlighter>
         
@@ -127,7 +127,7 @@ function App() {
       </div>
 
       <div className="Cta-footer">
-        <div className= "Footer-text"> THIS IS A PROTEST BY TEACH, A GROUP OF UNDERCLASSMEN FROM STANFORD & BERKELEY </div>
+        <div className= "Footer-text"> THIS IS A STATEMENT BY TEACH, A GROUP OF UNDERCLASSMEN FROM STANFORD & BERKELEY </div>
         <div className="Signup-wrapper"> 
         {/* <SignUp></SignUp> */}
         </div>

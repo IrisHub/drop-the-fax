@@ -5,7 +5,7 @@ import '../index.css';
 
 const CaseParagraph = styled.div`
     // font-weight: 500;
-    font-family: Teight;
+    font-family: M5;
     font-size: 36px;
     line-height: 40px;
     text-align: left;
@@ -22,7 +22,7 @@ const CaseParagraph = styled.div`
       }
 
       @media (max-width: 500px) {
-      font-size: 36px;
+      font-size: 28px;
       line-height: 1.2;
          
        }

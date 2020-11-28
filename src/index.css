@@ -63,3 +63,8 @@ code {
   font-family: 'Milli-extra';
   src: local('Milli-extra'), url(./fonts/Millimetre-Extrablack_web.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'M5';
+  src: local('M5'), url(./fonts/m5x7.ttf) format('truetype');
+}
