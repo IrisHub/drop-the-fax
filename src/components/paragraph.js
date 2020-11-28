@@ -16,14 +16,13 @@ const CaseParagraph = styled.div`
     @media (max-width: 1000px) {
        margin-left: 7vw;
        margin-right: 7vw;
-       font-size: 18px;
+      //  font-size: 18px;
 
         
       }
 
       @media (max-width: 500px) {
-      font-size: 28px;
-      line-height: 1.2;
+      font-size: 36px;
          
        }
 
