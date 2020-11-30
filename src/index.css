@@ -14,17 +14,17 @@ code {
     monospace;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Counterculture';
   src: local('Counterculture'), url(./fonts/Counterculture.ttf) format('truetype');
-}
+} */
 
 @font-face {
   font-family: 'Teight';
   src: local('Teight'), url(./fonts/Teight.ttf) format('truetype');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Helvetica';
   src: local('Counterculture'), url(./fonts/Helvetica.ttf) format('truetype');
 }
@@ -32,7 +32,7 @@ code {
 @font-face {
   font-family: 'HelveticaBold';
   src: local('Counterculture'), url(./fonts/Helvetica-Bold.ttf) format('truetype');
-}
+} */
 
 @font-face {
   font-family: 'Arial-black';
