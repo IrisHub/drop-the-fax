@@ -62,9 +62,11 @@ function App() {
 
     <div className="Main-container">
     <div className="Hero-container"> 
+    <Label></Label>
+
       <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WRONG.'></Title>
-      <Subtitle text = 'Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle>
-      <Label></Label>
+      {/* <Subtitle text = 'Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle> */}
+      <div className="Subtitle">Colleges <b>ignore</b> our emails and petitions, so we found a <b>backdoor</b>.  The old, loud <b>fax machines</b> in every campus office.  Make some noise: send <b>one million faxes </b>to your college president.. </div>
 
     </div>
     
@@ -79,7 +81,7 @@ function App() {
       {/* </div> */} 
 
       <div className="Middle"> 
-      
+
       <div className="Button-Container-Mobile">
         <Link to= "/fax" className="Button"> 
             <img className = "Button-img" src = {button} />
