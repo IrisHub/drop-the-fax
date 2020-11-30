@@ -39,6 +39,8 @@ import Fade from 'react-reveal/Fade';
 import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 import flame from './images/redflame@2x.png';
 import button from './images/redbutton@3X.png';
+import fax from './images/faxfax@3x.png';
+
 
 
 
@@ -57,50 +59,58 @@ function App() {
     <Marquee></Marquee>
     {/* <Title text = 'PROTEST FULL TUITION DURING COVID BY FLOODING UNIVERSITY PRESIDENTS WITH FAXES'></Title> */}
 
+
+    <div className="Main-container">
     <div className="Hero-container"> 
       <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WRONG.'></Title>
-      <Subtitle text = 'Schools are charging us more during COVID and giving us worse education. Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle>
+      <Subtitle text = 'Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle>
+      <Label></Label>
     </div>
     
-    <div className="Main-container"> 
+    <div className="Print-container"> 
 
-      <div className="Left">  
-        <Image
+      {/* <div className="Left">  
+        {/* <Image
             image = "./images/print.gif"
-          ></Image> 
-      </div>
+          ></Image>  */}
+                 
+
+      {/* </div> */} 
 
       <div className="Middle"> 
-       
-        <Link to= "/fax" className="Button"> 
-          <img className = "Button-img" src = {button} />
-        </Link>
-        {/* <img className = "img-hero" id = "carmen" src = {flame} /> */}
-        {/* <div className="Label2"> 10,321 FAXES </div> */}
-        {/* <div className="Label2"> 
-          <Label></Label>
-
-        </div> */}
-
+          <Image
+            image = "./images/faxfax@2x.png"
+          ></Image> 
+        
       </div>
 
       <div className="Right">  
-        <Image
-            image = "./images/print.gif"
-          ></Image> 
-      </div>
+        <div className = "Caption"> THE INVOICE</div>
+        <div className = "Caption-text"> BILL 13 SCHOOLS FOR UNFAIR TUITION! </div>
+
+        <div className="Button-container">
+        <Link to= "/fax" className="Button"> 
+            <img className = "Button-img" src = {button} />
+        </Link>
 
       </div>
 
-      <div className="LabelTop"> 
+
+      </div>
+
+      </div>
+
+      {/* <div className="LabelTop"> 
         <Label></Label>
-        </div>
+        </div> */}
 
       {/* <div className="Share-text">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES!</div> */}
+      </div>
 
+     
       {/* <Divider></Divider> */}
-      <div className="Text-container"> 
 
+      <div className="Text-container"> 
 
         <Title text = "FAQ"></Title>
         <Highlighter text = "Q: DOES THIS REALLY SEND FAXES?"></Highlighter>

@@ -38,7 +38,7 @@ const CaseTitle = styled.div`
     color: #D60105;
     line-height: 1.4;
     // font-weight: 600;
-    text-align: center;
+    text-align: left;
 
     @media (max-width: 1000px) {
       padding-left: 0;
@@ -48,10 +48,11 @@ const CaseTitle = styled.div`
   
      }
 
-      @media (max-width: 500px) {
+      @media (max-width: 550px) {
       font-size: 36px;
       line-height: 1.4;
       padding: 5%;
+      text-align: center;
          
        }
 

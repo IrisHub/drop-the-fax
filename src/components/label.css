@@ -1,9 +1,21 @@
 .Label{
     font-family: M5;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 36px;
     text-align: center;  
     color: #D60105;
+    border-style: solid;
+    border-color: #D60105;
+    border-width: 3px;
+    border-radius: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    transform: rotate(-5deg);
+
+    ;
 }
 
 .Fax-container{
@@ -27,7 +39,7 @@
     }
 
     .Label{
-        font-size: 36px;
+        font-size: 32px;
 
     }
 
