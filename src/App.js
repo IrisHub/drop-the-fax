@@ -95,8 +95,8 @@ function App() {
       </div>
 
       <div className="Right">  
-        <div className = "Caption"> THE INVOICE</div>
-        <div className = "Caption-text"> BILL 13 SCHOOLS FOR UNFAIR TUITION! </div>
+        <div className = "Caption"> FAX THIS BILL</div>
+        <div className = "Caption-text"> CHARGE YOUR SCHOOL FOR UNFAIR TUITION! </div>
 
         <div className="Button-container">
         <Link to= "/fax" className="Button"> 

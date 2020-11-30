@@ -7,9 +7,9 @@ import './small-img.css';
 
 const SmallImage = ( {image, caption, color} ) => {
   return(
-      <React.Fragment> 
-      <img className = "small-img" src ={require(`${image}`)} /> 
-      </React.Fragment>
+      <div className="small-img-wrapper"> 
+        <img className = "small-img" src ={require(`${image}`)} /> 
+      </div>
   )
 }
 
