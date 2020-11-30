@@ -27,6 +27,7 @@ const Header = styled.div`
     color: white;
     border-bottom: 2px solid white;
     overflow: hidden
+    z-index: 4;
 
     // @media (max-width: 1000px) {
     //    margin-left: 7vw;
