@@ -65,6 +65,7 @@ function App() {
       <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WRONG.'></Title>
       <Subtitle text = 'Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle>
       <Label></Label>
+
     </div>
     
     <div className="Print-container"> 
@@ -78,6 +79,13 @@ function App() {
       {/* </div> */} 
 
       <div className="Middle"> 
+      
+      <div className="Button-Container-Mobile">
+        <Link to= "/fax" className="Button"> 
+            <img className = "Button-img" src = {button} />
+        </Link>
+        </div>
+
           <Image
             image = "./images/faxfax@2x.png"
           ></Image> 
@@ -92,8 +100,7 @@ function App() {
         <Link to= "/fax" className="Button"> 
             <img className = "Button-img" src = {button} />
         </Link>
-
-      </div>
+        </div>
 
 
       </div>

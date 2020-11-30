@@ -108,6 +108,12 @@
 
 }
 
+.Button-Container-Mobile{
+ display: none;
+
+}
+
+
 
 
 .Text-container{
@@ -306,6 +312,12 @@ a{
     padding-left: 0%;
     padding-right: 0%;
   }
+
+  .Button-Container-Mobile{
+    display: block;
+   
+   }
+   
 
   .Manifesto{
       margin-left: 0%;
