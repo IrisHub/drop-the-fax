@@ -133,7 +133,7 @@ function App() {
         <Paragraph text = "A: College students from California. COVID took away 99% of the value of college, but took away 0% of the price."></Paragraph> */}
 
         <Highlighter text = "Q: *UNIVERSITY PRESIDENT UNPLUGS FAX MACHINE* "></Highlighter>
-        <Paragraph text = " A: We don't care about admin reading each message.  It's about the collective statement we make as students coming together to send 1,000,000 faxes against tuition.  Plus, faxes are all online now, so unplug away. :) "></Paragraph>
+        <Paragraph text = " A: We don't care about admin reading each message.  It's about the collective statement we make as students coming together to send 1,000,000 faxes against tuition.  Plus, faxes are also received online in addition to on paper, so unplug away. :) "></Paragraph>
 
         <Highlighter text = "Q: WHAT ABOUT THE TREES???"></Highlighter>
         <Paragraph text = " A: We're not here to destroy the environment. We're personally donating to onetreeplanted.org to offset the papers we're printing."></Paragraph>
