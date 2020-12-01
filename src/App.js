@@ -66,7 +66,7 @@ function App() {
 
       <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WRONG.'></Title>
       {/* <Subtitle text = 'Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle> */}
-      <div className="Subtitle">Colleges <b>ignore</b> our emails and petitions, so we found a <b>backdoor</b>.  The old, loud <b>fax machines</b> in every campus office.  Make some noise: send <b>one million faxes </b>to 13 college presidents. </div>
+      <div className="Subtitle">Colleges <b>ignore</b> our emails and petitions, so we found a <b>backdoor</b>.  The old, loud <b>fax machines</b> that every university still keeps around.  Make some noise: send <b>one million faxes </b>to <b>13 college presidents. </b></div>
 
     </div>
     
@@ -96,7 +96,7 @@ function App() {
 
       <div className="Right">  
         <div className = "Caption"> FAX THIS BILL</div>
-        <div className = "Caption-text"> CHARGE YOUR SCHOOL FOR UNFAIR TUITION! </div>
+        <div className = "Caption-text"> CHARGE YOUR SCHOOL + 12 OTHERS FOR UNFAIR TUITION! </div>
 
         <div className="Button-container">
         <Link to= "/fax" className="Button"> 
