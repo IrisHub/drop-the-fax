@@ -126,11 +126,11 @@ function App() {
         <Paragraph text = "A: Yes. press fax and send to 13 university presidents from Stanford, Cal, UCLA, USC, MIT and every Ivy."></Paragraph>
 
         <Highlighter text = "Q: WHY THIS?"></Highlighter>
-        <Paragraph text = "A: Emails, petitions and protests get ignored. it is hard to ignore a tsunami of papers flying out of a house-sized machine that sounds like a jackhammer."></Paragraph>
+        <Paragraph text = "A: We're college students from California.  We've seen emails, petitions and protests get ignored. It is hard to ignore a tsunami of papers flying out of a house-sized machine that sounds like a jackhammer."></Paragraph>
 
-        <Highlighter text = "Q: WHO ARE U?"></Highlighter>
+        {/* <Highlighter text = "Q: WHO ARE U?"></Highlighter>
         
-        <Paragraph text = "A: College students from California. COVID took away 99% of the value of college, but took away 0% of the price."></Paragraph>
+        <Paragraph text = "A: College students from California. COVID took away 99% of the value of college, but took away 0% of the price."></Paragraph> */}
 
         <Highlighter text = "Q: *UNIVERSITY PRESIDENT UNPLUGS FAX MACHINE* "></Highlighter>
         <Paragraph text = " A: We don't care about admin reading each message.  It's about the collective statement we make as students coming together to send 1,000,000 faxes against tuition.  Plus, faxes are all online now, so unplug away. :) "></Paragraph>
