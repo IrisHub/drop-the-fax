@@ -95,14 +95,16 @@ function App() {
       </div>
 
       <div className="Right">  
-        <div className = "Caption"> FAX THIS BILL</div>
-        <div className = "Caption-text"> CHARGE YOUR SCHOOL + 12 OTHERS FOR UNFAIR TUITION! </div>
+        {/* <div className = "Caption"> FAX THIS BILL</div> */}
+        <div className = "Caption-text"> CHARGE SCHOOLS FOR UNFAIR TUITION! </div>
 
         <div className="Button-container">
         <Link to= "/fax" className="Button"> 
             <img className = "Button-img" src = {button} />
         </Link>
         </div>
+
+
 
 
       </div>
