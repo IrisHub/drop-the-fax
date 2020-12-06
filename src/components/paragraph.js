@@ -22,7 +22,10 @@ const CaseParagraph = styled.div`
       }
 
       @media (max-width: 500px) {
-      font-size: 36px;
+      font-size: 24px;
+      line-height: 30px;
+      margin-top: 0px;
+      margin-bottom: 0px;
          
        }
 
