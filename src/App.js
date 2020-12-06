@@ -7,6 +7,8 @@ import Faxed from "./faxed";
 import ConfirmButton from './components/cta-button.js';
 import MyNavbar from './components/nav.js';
 import Divider from './components/divider.js';
+import Nav from './components/nav.js';
+
 import Footer from './components/footer';
 import Line from './components/line';
 import Paragraph from './components/paragraph';
@@ -57,28 +59,24 @@ function App() {
     {/* <Title text = 'PRESS THIS BUTTON, FLOOD UNIVERSITY PRESIDENTS FROM 10 SCHOOLS WITH FAX MESSAGES'></Title> */}
     {/* <Title text = 'A PETITION TO MAKE OUR FINAL EXAMS COLLABORATIVE, BUT YOU SIGN IT BY FLOODING UNIVERSITY PRESIDENTS WITH FAX MESSAGES.'></Title> */}
     <Marquee></Marquee>
+    {/* <Nav></Nav> */}
     {/* <Title text = 'PROTEST FULL TUITION DURING COVID BY FLOODING UNIVERSITY PRESIDENTS WITH FAXES'></Title> */}
 
 
     <div className="Main-container">
     <div className="Hero-container"> 
-    <Label></Label>
 
-      <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WRONG.'></Title>
+      <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WACK!'></Title>
       {/* <Subtitle text = 'Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle> */}
-      <div className="Subtitle">Colleges <b>ignore</b> our emails and petitions, so we found a <b>backdoor</b>.  The old, loud <b>fax machines</b> that every university still keeps around.  Make some noise: send <b>one million faxes </b>to <b>13 college presidents. </b></div>
+      <div className="Subtitle-Text">Colleges <b>ignore</b> our emails and petitions, but we found a backdoor.  Make some noise: send <b>one million faxes </b>to <b>13 college presidents. </b></div>
+      
+      <div className="Label-Container-Web"> 
+         <Label></Label>
+      </div>
 
     </div>
     
     <div className="Print-container"> 
-
-      {/* <div className="Left">  
-        {/* <Image
-            image = "./images/print.gif"
-          ></Image>  */}
-                 
-
-      {/* </div> */} 
 
       <div className="Middle"> 
 
@@ -86,17 +84,23 @@ function App() {
         <Link to= "/fax" className="Button"> 
             <img className = "Button-img" src = {button} />
         </Link>
+        <Label></Label>
         </div>
 
-          <Image
-            image = "./images/faxfax@2x.png"
-          ></Image> 
+        <div className="Image-container"> 
+
+            <div className = "Caption-text"> FAX THIS BILL TO 13 SCHOOLS IN 1 CLICK! </div>
+            <Image
+              image = "./images/faxfax@2x.png"
+            ></Image> 
+        </div>
+                
+
         
       </div>
 
       <div className="Right">  
         {/* <div className = "Caption"> FAX THIS BILL</div> */}
-        <div className = "Caption-text"> CHARGE SCHOOLS FOR UNFAIR TUITION! </div>
 
         <div className="Button-container">
         <Link to= "/fax" className="Button"> 

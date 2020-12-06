@@ -42,11 +42,19 @@ class Label extends Component{
 
         const {name} = this.state
         return (
-            <div className="Fax-container"> 
+            <React.Fragment> 
+            <div className="Label-container-mobile"> 
                 {/* <img src={flame} className = 'Icon'></img> */}
-                <div className = "Label">{this.state.count} / 1,000,000 FAXES SENT!</div>
+                <div className = "Label-Title">{this.state.count} / 1,000,000  </div>
+                <div className = "Label">FAXES SENT!</div>
             </div>
-          
+
+            <div className="Label-container-desktop"> 
+            {/* <img src={flame} className = 'Icon'></img> */}
+            <div className = "Label-Title">{this.state.count} / 1,000,000  </div>
+            <div className = "Label">FAXES SENT!</div>
+            </div>
+            </React.Fragment>
           
         );
     }

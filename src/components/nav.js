@@ -1,10 +1,9 @@
 import React, {Component} from 'react'; 
-// import logo from '../images/logo@2x.svg';
+import logo from '../images/logo@2x.svg';
 
 //react router for routes
 import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import '../components/nav.css';
-// import iris from '../images/irislogodark@6x.png';
 
 
 
@@ -21,13 +20,11 @@ class MyNavbar extends React.Component{
    
       return (
           <div className = 'Navbar'>
-
-             {/* <div className = "logo">SG</div> */}
-             {/* <img className = 'logo' src={iris} alt=""></img> */}
+              <img className = 'logo' src={logo} alt=""></img> 
               
-              {/* <div className = "nav-text" id = "work"><Link className = "nav-link" to="/"> Work</Link></div>
+               {/* <div className = "nav-text" id = "work"><Link className = "nav-link" to="/"> Work</Link></div>
               <div className = "nav-text" id = "about"> <Link className = "nav-link" to="/about">About</Link> </div>
- */}
+  */}
 
           </div>
     

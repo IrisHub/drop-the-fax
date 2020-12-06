@@ -1,45 +1,95 @@
-.Label{
-    font-family: M5;
-    font-weight: normal;
-    font-size: 36px;
+
+.Label-container-mobile{
+  display: none;
+}
+
+
+.Label-container-desktop{
+    /* display: flex;
+    flex-direction: row; */
+    display: block;
     text-align: center;  
-    color: #D60105;
-    border-style: solid;
-    border-color: #D60105;
-    border-width: 3px;
     border-radius: 50%;
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 5%;
     margin-bottom: 5%;
 
-    transform: rotate(-2deg);
+     
+    border-style: solid;
+    border-color: #D60105;
+    border-width: 3px;
+    border-radius: 50%;
+  
 
+    transform: rotate(-2deg);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+
+.Label-Title{
+    font-family: Milli-extra;
+    font-size: 21px;
+    color: #D60105;
+
+
+
+}
+
+.Label{
+    font-family: M5;
+    font-weight: normal;
+    font-size: 24px;
+    color: #D60105;
+
+
+  
     ;
 }
 
-.Fax-container{
-    /* display: flex;
-    flex-direction: row; */
-}
 
 .Icon{
     width:12%;
 }
 
+.Label-container-mobile{
+    display: none;
+}
+
 @media screen and (max-width: 1000px){
 
-    .Fax-container{
+    .Label-container-desktop{
+        display: none;
+    }
+
+    .Label-container-mobile{
+        display: block;
+        text-align: center;  
+        border-radius: 50%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    
+    }
+
+    /* .Fax-container{
         flex-direction: row;
 
-    }
+    } */
 
     .Icon{
         display: none;
     }
 
     .Label{
-        font-size: 32px;
+        font-size: 24px;
+        margin-left: 10%;
+        margin-right: 10%;
+
 
     }
 
