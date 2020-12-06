@@ -33,7 +33,7 @@ const CaseTitle = styled.div`
     font-weight: normal;
     // font-family: Arial-black;
     font-family: Milli-extra;
-    font-size: 72px;
+    font-size: 60px;
     letter-spacing: 4%;
     color: #D60105;
     line-height: 1.4;
