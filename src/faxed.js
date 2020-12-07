@@ -68,6 +68,8 @@ class Faxed extends Component{
 
 
             console.log(this.state.new_count)
+            console.log(this.state.date)
+
             // this.props.currView.setState({ curr: "User: " + success.data.first_name + " " + success.data.last_name });
             }, function (err) {
             console.log("err"+err); //prints ‘failure reason’ if rejected’

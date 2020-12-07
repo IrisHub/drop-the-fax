@@ -25,6 +25,7 @@
   flex-direction: row;
   padding-top: 5%;
   border: 4px solid #D60105;
+  background-color: #FFFFF5;
   /* border-top: none; */
 
 }
@@ -142,6 +143,8 @@
   /* padding-top: 5%; */
   border: 4px solid #D60105;;
   border-top: none;
+  background-color: #FFFFF5;
+
 
 }
 
