@@ -17,6 +17,8 @@ import ShareButton from './share-button';
 import { BrowserRouter as Router, Route,Link, Switch } from 'react-router-dom';
 import Line from './line';
 import Highlighter from './highlighter';
+import Pin from '../images/pin@3x.png';
+
 
 
 
@@ -85,12 +87,18 @@ const Colleges = ({date,count,time}) => {
                 {/* <div className="Confirm-text"> UPDATED FAX TOTAL: {count} </div> */}
                 <div className="Confirm-2"> 
                 <div className="Confirm-text"> SENT TO: STANFORD, BERKELEY, UCLA, USC, MIT & EVERY IVY </div>
-                <div className="Confirm-text"> STATUS: ALL FAXES DELIVERED WITHIN 48 HOURS</div>
+                <div className="Confirm-text"> STATUS: ALL FAXES DELIVERED WITHIN 48H</div>
                 </div>
 
-                  <SmallImage className = "Print"
+                <div className ="Count-container"> 
+         
+                  <img className="Print-img" src = {Pin}></img>
+                  <div className="Count">{count} </div>
+                </div>
+
+                  {/* <SmallImage className = "Print"
                   image = "./images/thefax@2X.png"
-              ></SmallImage> 
+              ></SmallImage>  */}
                 
                 <div className="Faxed-share">SHARE WITH YOUR FRIENDS TO GET TO 1 MILLION FAXES!</div>
 

@@ -67,8 +67,40 @@
     padding-right: 10%;
     padding-top: 5%;
     /* padding-bottom: 5%; */
+    /* background-color: #D60105; */
 
 
+}
+
+.Count-container{
+   
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+
+}
+
+.Print-img{
+    z-index: 1;
+    width: 95%;
+    text-align: center;
+
+
+}
+.Count{
+    z-index: 2;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding-top: 32%;
+    padding-left: 40%;
+    padding-right: 40%;
+
+
+    color: white;
+    font-family: Milli-extra;
+    font-size: 36px;
 }
 
 
@@ -122,5 +154,32 @@
 
 
     }
+
+
+    .Count-container{
+    
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+
+    .Print-img{
+        z-index: 1;
+        width: 100%;
+
+
+    }
+    .Count{
+     
+        top:0;
+        left: 0;
+        padding-top: 42%;
+
+        padding-left: 37%;
+
+        font-size: 36px;
+
+    }
+
 
 }
