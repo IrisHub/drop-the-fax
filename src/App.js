@@ -152,7 +152,7 @@ function App() {
       </div>
 
       <div className="Cta-footer">
-        <div className= "Footer-text"> THIS IS A STATEMENT BY TEACH, A GROUP OF UPPERCLASSMEN FROM STANFORD & BERKELEY </div>
+        <div className= "Footer-text"> THIS IS A STATEMENT BY IRIS LABS, A GROUP OF UPPERCLASSMEN FROM STANFORD & BERKELEY </div>
         <div className="Signup-wrapper"> 
         {/* <SignUp></SignUp> */}
         </div>
