@@ -66,7 +66,7 @@ function App() {
     <div className="Main-container">
     <div className="Hero-container"> 
 
-      <Title text = "2020'S LAST CHANCE TO GET OUR TUITION LOWERED"></Title>
+      <Title text = "2020'S LAST CHANCE TO LOWER OUR TUITION"></Title>
       {/* <Subtitle text = 'Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle> */}
       <div className="Subtitle-Text"> Go old school.  Fax 20 college presidents to lower our tuition.  </div>
       
