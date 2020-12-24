@@ -68,7 +68,7 @@ function App() {
 
       <Title text = "2020'S LAST CHANCE TO LOWER OUR TUITION"></Title>
       {/* <Subtitle text = 'Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle> */}
-      <div className="Subtitle-Text"> Go old school.  Fax 20 college presidents to lower our tuition.  </div>
+      <div className="Subtitle-Text"> Go old school & fax 20 college presidents to lower our tuition   </div>
       
       <div className="Label-Container-Web"> 
          <Label></Label>
@@ -126,16 +126,18 @@ function App() {
      
 
         {/* {/* <Paragraph text = "ADMINISTRATORS HAVEN'T LISTENED TO PETITIONS.  BUT FLOODING AN OFFICE WITH THOUSANDS OF FAXES?  THAT'S A STATEMENT.  JOIN US TO PROTEST FULL TUITION IN ONLINE SCHOOL THIS YEAR. "></Paragraph> */}
-        <Divider></Divider>
+        {/* <Divider></Divider> */}
 
       {/* </div> */}
 
       <div className="Cta-footer">
-        <Link to="/faq" className="Footer-text">❔FAQ❔</Link>
-        <div className= "Footer-text"> THIS IS A STATEMENT BY IRIS LABS, A GROUP OF UPPERCLASSMEN FROM STANFORD & BERKELEY </div>
-        <div className="Signup-wrapper"> 
+        
+         <div className= "Footer-text-1">‼️ BY IRIS LABS, A GROUP OF UPPERCLASSMEN FROM STANFORD & BERKELEY </div>
+        <Link to="/faq" className="Footer-text-2">⁉️ FAQ </Link>
+
+        {/* <div className="Signup-wrapper">  */}
         {/* <SignUp></SignUp> */}
-        </div>
+        {/* </div> */}
         {/* <a href = "https://apps.apple.com/us/app/teach-learn-with-your-class/id1538387223" target = "_blank"> DOWNLOAD TEACH NOW</a>  */}
       </div>
 

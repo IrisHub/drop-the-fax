@@ -112,11 +112,11 @@ const Colleges = ({date,count,time}) => {
 
                 <Divider></Divider>
 
-                <Highlighter text = "WHAT’S NEXT?" ></Highlighter>
-                <Line text = "WE’RE TEACH: A GROUP OF COLLEGE STUDENTS WHO DROP FUN STUFF LIKE THIS.  DROP YOUR EMAIL TO HEAR ABOUT THE NEXT ONE FIRST." ></Line>
+                {/* <Highlighter text = "WHAT’S NEXT?" ></Highlighter> */}
+                {/* <Line text = "DROP YOUR EMAIL TO GET UPDATES WHEN WE HIT OUR GOAL." ></Line>
 
                 {/* <ConfirmButton text = “COLLAB ON TEACH”></ConfirmButton> */}
-                <SignUp></SignUp>
+                {/* <SignUp></SignUp>  */}
                 <Link to='/' className='Back'>FAX AGAIN?</Link>
                 <Divider></Divider>
                 </div>
