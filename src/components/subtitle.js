@@ -26,7 +26,7 @@ const CaseTitle = styled.div`
     color: #D60105;
     text-align: left;
       @media (max-width: 550px) {
-      font-size: 28px;
+      font-size: 32px;
       // line-height: 1.2;
          
        }
