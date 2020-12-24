@@ -66,9 +66,9 @@ function App() {
     <div className="Main-container">
     <div className="Hero-container"> 
 
-      <Title text = 'CHARGING FULL TUITION IN A PANDEMIC IS WACK!'></Title>
+      <Title text = "2020'S LAST CHANCE TO GET OUR TUITION LOWERED"></Title>
       {/* <Subtitle text = 'Colleges ignore our emails and petitions, so we found a backdoor.  The old, loud fax machines in every campus office.  Make some noise: send one million faxes to your college president..'></Subtitle> */}
-      <div className="Subtitle-Text">Colleges <b>ignore</b> our emails and petitions, but we found a backdoor.  Make some noise: send <b>one million faxes </b>to <b>13 college presidents. </b></div>
+      <div className="Subtitle-Text"> Go old school and fax 20 college presidents in 1 click.   </div>
       
       <div className="Label-Container-Web"> 
          <Label></Label>
@@ -89,7 +89,7 @@ function App() {
 
         <div className="Image-container"> 
 
-            <div className = "Caption-text"> FAX THIS BILL TO 13 SCHOOLS IN 1 CLICK! </div>
+            {/* <div className = "Caption-text"> FAX THIS BILL TO 13 SCHOOLS IN 1 CLICK! </div> */}
             <Image
               image = "./images/faxfax@2x.png"
             ></Image> 
@@ -131,15 +131,15 @@ function App() {
         <Highlighter text = "Q: DOES THIS REALLY SEND FAXES?"></Highlighter>
         <Paragraph text = "A: Yes. press fax and send to 13 university presidents from Stanford, Cal, UCLA, USC, MIT and every Ivy."></Paragraph>
 
-        <Highlighter text = "Q: WHY THIS?"></Highlighter>
-        <Paragraph text = "A: We're college students from California.  We've seen emails, petitions and protests get ignored. It is hard to ignore a tsunami of papers flying out of a house-sized machine that sounds like a jackhammer."></Paragraph>
+        <Highlighter text = "Q: WHY NOW?"></Highlighter>
+        <Paragraph text = "A: Bills for the next semester have just arrived.  Emails, petitions and protests were ignored. It is hard to ignore a tsunami of papers flying out of a house-sized machine that sounds like a jackhammer."></Paragraph>
 
         {/* <Highlighter text = "Q: WHO ARE U?"></Highlighter>
         
         <Paragraph text = "A: College students from California. COVID took away 99% of the value of college, but took away 0% of the price."></Paragraph> */}
 
         <Highlighter text = "Q: *UNIVERSITY PRESIDENT UNPLUGS FAX MACHINE* "></Highlighter>
-        <Paragraph text = " A: We don't care about admin reading each message.  It's about the collective statement we make as students coming together to send 1,000,000 faxes against tuition.  Plus, faxes are also received online in addition to on paper, so unplug away. :) "></Paragraph>
+        <Paragraph text = " A:  Faxes are received online in addition to paper, so unplug away.  It's about the collective statement we make as students coming together to send 1,000,000 faxes against tuition. "></Paragraph>
 
         <Highlighter text = "Q: WHAT ABOUT THE TREES???"></Highlighter>
         <Paragraph text = " A: We're not here to destroy the environment. We're personally donating to onetreeplanted.org to offset the papers we're printing."></Paragraph>
