@@ -29,13 +29,13 @@ const Faq = ( ) => {
     return(
         <React.Fragment> 
         <Marquee></Marquee>
-        <MyNavbar></MyNavbar>
+        {/* <MyNavbar></MyNavbar> */}
 
         <div className="Text-container"> 
 
             <Title text = "FAQ"></Title>
             <Highlighter text = "Q: DOES THIS REALLY SEND FAXES?"></Highlighter>
-            <Paragraph text = "A: Yes. press fax and send to 20 university presidents from Stanford, Cal, UCLA, USC, MIT, every Ivy & more."></Paragraph>
+            <Paragraph text = "A: Yeah. Press fax and send to 20 university presidents from Stanford, Cal, UCLA, USC, MIT, every Ivy & more."></Paragraph>
 
             <Highlighter text = "Q: WHY NOW?"></Highlighter>
             <Paragraph text = "A: Bills for the next semester just arrived.  Emails, petitions and protests got ignored. It is hard to ignore a tsunami of papers flying out of a house-sized machine that sounds like a jackhammer."></Paragraph>

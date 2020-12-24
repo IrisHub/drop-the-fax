@@ -12,7 +12,7 @@ a{
 
 a:visited{
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 
 a:hover{

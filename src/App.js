@@ -131,6 +131,7 @@ function App() {
       {/* </div> */}
 
       <div className="Cta-footer">
+        <Link to="/faq" className="Footer-text">❔FAQ❔</Link>
         <div className= "Footer-text"> THIS IS A STATEMENT BY IRIS LABS, A GROUP OF UPPERCLASSMEN FROM STANFORD & BERKELEY </div>
         <div className="Signup-wrapper"> 
         {/* <SignUp></SignUp> */}
